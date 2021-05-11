@@ -6,10 +6,95 @@
     <title></title>
 
     <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-    <h1></h1>
+    <header>
+        <div class="flex-nav">
+            <div class="logo">
+                <a href="index.html"><img id="logo" src="images/m.png" alt="logo"></a>
+            </div>
+            <!--end inner-->
+
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="communities.html">Communities</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+        </div> <!-- end flex-nav-->
+    </header>
+
+    <div id="wrapper">
+
+        <aside>
+            <img src="images/dental-care.png" alt="teeth" width="100">
+            <form action="formhandler1.php" method="post">
+                <div class="signup">
+                    <h3>E-NEWSLETTER SIGNUP</h3>
+                    <p>SUBSCRIBE</p>
+                    <p>Subscribe to our newsletter for the latest news and services updates straight to your inbox.</p>
+                </div>
+                <div class="signup">
+                    <input type="text" placeholder="Email" name="mail">
+                    <input type="submit" value="Subscribe">
+
+                </div>
+            </form>
+        </aside>
+    </div> <!-- end wrapper-->
 </body>
+
+<footer>
+    <div class="flex-footer">
+
+        <div class="third">
+            <h3>CONTACT US</h3>
+            <p><a href="tel:97611458847">Phone: (976) 11 45 8847</a></p>
+            <p><a href="email:contact@seattlecomms.com">E-mail: contact@seattlecomms.com</a></p>
+        </div>
+
+        <div class="third">
+            <h3>Contact Information</h3>
+            <p><a href="communities.html">Communities</a></p>
+            <p><a href="faq.html">FAQ</a></p>
+        </div>
+
+        <div class="third">
+            <h3>INFORMATION</h3>
+            <p><a href="about.html">About Communities</a></p>
+            <p><a href="register.html">Work with Us</a></p>
+            <p><a href="register.html">Privacy Policy</a></p>
+            <p><a href="register.html">Terms & Conditions</a></p>
+        </div>
+
+        <div class="footer-aside">
+            <div class="social"></div>
+            <ul>
+                <li><a href=""><img src="images/insta.png" alt="instagram"></a></li>
+                <li><a href=""><img src="images/twitter.png" alt="twitter"></a></li>
+                <li><a href=""><img src="images/fb.png" alt="facebook"></a></li>
+            </ul>
+        </div> <!-- end social -->
+
+        <div class="copyright">
+            <p>&copy; 2021
+                <?php echo date("Y"); ?>
+            </p>
+            <p>All Rights Reserved</p>
+            <!-- <p><a href="https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fenereldent.live%2Findex.php"><img
+                        src="images/html.png" alt="html"></a></p>
+            <p><a href="https://jigsaw.w3.org/css-validator/validator?uri=enereldent.live&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><img
+                        style="border:0;width:88px;height:31px" src="" alt="Valid CSS!"></a></p> -->
+        </div> <!-- end copyright -->
+    </div> <!-- end footer-aside-->
+    </div>
+    <!--end flex-footer-->
+</footer>
+
 
 </html>
