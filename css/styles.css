@@ -91,7 +91,21 @@ header {
 .main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding-top: 200px;
+    background-image: url("../images/splashstockseattle.jpg");
+}
+
+.splash {
+    grid-column: span 13;
+    margin: 0 auto;
+}
+
+.splash p {
+    margin-top: 200px;
+    margin-bottom: 150px;
+    color: #fff;
+    font-size: 4em;
+    font-style: normal;
+    font-variant: normal;
 }
 
 .fourth {
