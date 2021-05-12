@@ -78,11 +78,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
 }
-
-#wrapper {
-    max-width: 1100px;
-    margin: 200px auto 0 auto;
-}
  
 header {
     position: fixed;
@@ -93,22 +88,35 @@ header {
     z-index: 1;
 }
 
-main {
-    float: left;
-    padding : 10px;
-    width: 60%;
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 200px;
 }
 
-aside {
-    width: 35%;
-    float: right;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.fourth {
+    grid-column: span 3;
 }
 
-aside img {
-    margin-left: 80px;
-    margin-bottom: 15px;
+.half {
+    grid-column: span 6;
+}
+
+.main .fourth {
+    border: 2px dotted red;
+}
+
+.main .half {
+    border: 2px dotted blue;
+}
+
+.wrapper {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 11;
+    width: 100%;
+    margin: 200px auto 0px auto;
+    background-color: beige;
 }
 
 img {
@@ -153,60 +161,46 @@ form {
 }
 
 footer {
-    border-top: 1px dotted #666;
-    height: 30px;
+    background-color: #46C3A6;
     clear: both;
     font-size: .9em;
     font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.flex-footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    background-color: #46C3A6;
-    color: #fff;
+.social {
+    background-color: #379882;
+    grid-column: span 12;
+    text-align: center;
 }
-  
-.third {
-    float: left;
-    width: 33.3%;
+
+.smbuttons {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.social img {
+    width: 5%;
     height: auto;
 }
 
-.footer-aside {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    background-color: #46C3A6;
+.ig {
+    grid-column: span 4;
+}
+
+.tw {
+    grid-column: span 4;
+}
+
+.fb {
+    grid-column: span 4;
 }
 
 .copyright {
-    float: right;
-    color: #fff;
-}
-
-footer ul {
-    float: left;
-}
-
-footer li {
-    list-style-type: none;
-} 
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
-footer img {
-    display: inline-block;
-    vertical-align: top;
-    margin: 4px;
-    width: 30px;
-    display: inline;
+    background-color: #328672;
+    grid-column: span 12;
+    text-align: center;
+    padding: auto 0;
 }
 
 /* Extra small devices (phones, 600px and down) */
