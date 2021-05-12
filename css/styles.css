@@ -104,10 +104,16 @@ header {
 
 .main .fourth {
     border: 2px dotted red;
+    background-color: #f1f8fe;
 }
 
 .main .half {
     border: 2px dotted blue;
+    background-color: #f1f8fe;
+}
+
+.main .half img {
+    margin: 0 auto;
 }
 
 .wrapper {
