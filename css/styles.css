@@ -190,7 +190,7 @@ footer {
 }
 
 .social {
-    background-color: #379882;
+    background-color: #46C3A6;
     grid-column: span 12;
     text-align: center;
 }
@@ -217,7 +217,7 @@ footer {
 }
 
 .copyright {
-    background-color: #328672;
+    background-color: #46C3A6;
     grid-column: span 12;
     text-align: center;
     padding: auto 0;
