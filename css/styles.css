@@ -92,6 +92,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     background-image: url("../images/splashstockseattle.jpg");
+    grid-gap: 10px 10px;
 }
 
 .splash {
@@ -106,11 +107,11 @@ header {
     font-size: 4em;
     font-style: normal;
     font-variant: normal;
+    text-align: center;
 }
 
 .fourth {
     grid-column: span 3;
-    margin-bottom: 30px;
 }
 
 .fourth a {
@@ -136,6 +137,11 @@ header {
 
 .main .half img {
     margin: 0 auto;
+}
+.categories {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: chartreuse;
 }
 
 .wrapper {
@@ -234,11 +240,12 @@ footer {
     text-align: center;
     padding: auto 0;
     color:#fff;
+    margin-top: 30px;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #wrapper {
+    .wrapper {
     position: relative;
     width: 100%;
 }
@@ -246,7 +253,7 @@ footer {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    #wrapper {
+    .wrapper {
     position: relative;
     width: 100%;
 }
@@ -254,7 +261,7 @@ footer {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    #wrapper {
+    .wrapper {
     position: relative;
     width: 100%;
 }
@@ -262,7 +269,7 @@ footer {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    #wrapper {
+    .wrapper {
     position: relative;
     width: 100%;
 }
@@ -270,7 +277,7 @@ footer {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    #wrapper {
+    .wrapper {
     position: relative;
     width: 100%;
 }
