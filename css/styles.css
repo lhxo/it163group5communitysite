@@ -110,6 +110,14 @@ header {
 
 .fourth {
     grid-column: span 3;
+    margin-bottom: 30px;
+}
+
+.fourth a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 0.9em;
 }
 
 .half {
@@ -196,7 +204,11 @@ footer {
 }
 
 .smbuttons {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .social img {
@@ -221,6 +233,7 @@ footer {
     grid-column: span 12;
     text-align: center;
     padding: auto 0;
+    color:#fff;
 }
 
 /* Extra small devices (phones, 600px and down) */
