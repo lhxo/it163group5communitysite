@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
 .logo {
     margin: auto 10px;
     width: 60px;
@@ -35,8 +40,6 @@
     list-style-type: none;
     width: 20%;
     text-align: center;
-    font-size: 0.9em;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav a {
@@ -47,9 +50,10 @@
 }
 
 .nav a:hover {
-    color: #000;
+    color: #505659;
     background-color: #fff;
     text-align: center;
+    border-radius: 2px;
 }
 
 .blueberry { 
@@ -66,19 +70,14 @@
     margin-right: auto;
 }
 
-/* font awesome icon styles */
+/* font awesome icon styles
 i.logo {
-    color: rgba(142, 8, 6, 1); /* a less boring color */
-    text-shadow: 1px 1px #ccc; /* gives the icon a little depth */
-    font-size: 1.25em; /* font awesome icons are text, so make it a bit bigger */
-    margin-left: 1%; /* this keeps the icon from being squeeezed to the left */
-}
+    color: rgba(142, 8, 6, 1);
+    text-shadow: 1px 1px #ccc; gives the icon a little depth
+    font-size: 1.25em; font awesome icons are text, so make it a bit bigger
+    margin-left: 1%; this keeps the icon from being squeeezed to the left
+} */
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-}
- 
 header {
     position: fixed;
     top: 0; /* for keeping stable */
@@ -88,11 +87,21 @@ header {
     z-index: 1;
 }
 
+.wrapper {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 11;
+    width: 100%;
+    margin: 200px auto 0px auto;
+    background-color: beige;
+}
+
 .main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     background-image: url("../images/splashstockseattle.jpg");
     grid-gap: 10px 10px;
+    padding: 20px;
 }
 
 .splash {
@@ -138,19 +147,43 @@ header {
 .main .half img {
     margin: 0 auto;
 }
+
 .categories {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    background-color: chartreuse;
+    grid-column: span 13;
+    /* background-color: chartreuse;
+    height: */
 }
 
-.wrapper {
+.categories .cat {
     display: grid;
-    grid-column-start: 3;
-    grid-column-end: 11;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    grid-gap: 10px 10px;
+}
+
+.cat .types {
+    height: 60px;
+    line-height: 60px;
     width: 100%;
-    margin: 200px auto 0px auto;
-    background-color: beige;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #D3FAF1;
+    margin: auto;
+}
+
+.cat .types a {
+    text-decoration: none;
+    color: #1bac8a;
+    display: block;
+    font-size: 1em;
+}
+
+.cat .types a:hover {
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 3px;
 }
 
 img {
@@ -163,8 +196,8 @@ h1 {
     margin-top: 10px;
     margin-bottom: 15px;
     color: #46C3A6;
-    font-size: 2em;
-    font-style: normal;
+    font-size: 1.5em;
+    font-style: italic;
     font-variant: normal;
     text-transform: capitalize;
 }
@@ -179,9 +212,33 @@ h2, h3 {
     text-transform: capitalize;
 }
 
+h4 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: lighter;
+}
+
 p {
     line-height: 1.5;
     margin-bottom: 13px;
+}
+
+.main-categoriespage {
+    background-color: #f1f8fe;
+    grid-column: span 13;
+}
+
+.main-categoriespage a {
+    color: #505659;
+    font-size: 0.8em;
+    font-style: 200;
+}
+
+.main-categoriespage p {
+    color: #505659;
+    font-size: 0.8em;
+    font-style: 200;
 }
 
 form {
