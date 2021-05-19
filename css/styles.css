@@ -224,18 +224,18 @@ p {
     margin-bottom: 13px;
 }
 
-.main-categoriespage {
+.about {
     background-color: #f1f8fe;
     grid-column: span 13;
 }
 
-.main-categoriespage a {
+.about a {
     color: #505659;
     font-size: 0.8em;
     font-style: 200;
 }
 
-.main-categoriespage p {
+.about p {
     color: #505659;
     font-size: 0.8em;
     font-style: 200;
