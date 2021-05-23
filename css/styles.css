@@ -40,6 +40,7 @@ body {
     list-style-type: none;
     width: 20%;
     text-align: center;
+    text-shadow: 0 1px 1px #000;
 }
 
 .nav a {
@@ -50,10 +51,11 @@ body {
 }
 
 .nav a:hover {
-    color: #505659;
+    color: #000;
     background-color: #fff;
     text-align: center;
     border-radius: 2px;
+    text-shadow: none;
 }
 
 .blueberry { 
@@ -118,6 +120,7 @@ header {
     font-style: normal;
     font-variant: normal;
     text-align: center;
+    text-shadow: 0 1px 1px #000;
 }
 
 .fourth {
@@ -129,6 +132,7 @@ header {
     color: #fff;
     display: block;
     font-size: 0.9em;
+    text-shadow: 0 0.5px 0.5px #505659;
 }
 
 .half {
@@ -201,6 +205,7 @@ h1 {
     font-style: italic;
     font-variant: normal;
     text-transform: capitalize;
+    /* text-shadow: 0 0.5px 0.5px #0d5745; */
 }
 
 h2, h3 {
@@ -211,6 +216,7 @@ h2, h3 {
     font-style: normal;
     font-variant: normal;
     text-transform: capitalize;
+    text-shadow: 0 1px 1px #000;
 }
 
 h4 {
@@ -264,7 +270,6 @@ footer {
 .social {
     background-color: #46C3A6;
     grid-column: span 12;
-    text-align: center;
 }
 
 .smbuttons {
@@ -296,6 +301,7 @@ footer {
     background-color: #46C3A6;
     grid-column: span 12;
     text-align: center;
+    text-shadow: 0 0.5px 0.5px #505659;
     padding: auto 0;
     color:#fff;
     margin-top: 30px;
@@ -303,15 +309,18 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .wrapper {
+    .main {
     position: relative;
     width: 100%;
 }
+    footer {
+        display: block;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .wrapper {
+    .main, footer {
     position: relative;
     width: 100%;
 }
@@ -319,7 +328,7 @@ footer {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .wrapper {
+    .main, footer {
     position: relative;
     width: 100%;
 }
@@ -327,7 +336,7 @@ footer {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .wrapper {
+    .main, footer {
     position: relative;
     width: 100%;
 }
@@ -335,7 +344,7 @@ footer {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .wrapper {
+    .main, footer {
     position: relative;
     width: 100%;
 }
