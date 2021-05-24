@@ -1,16 +1,4 @@
-<?php
-/**
- * multiple.php is a postback application designed to provide a 
- * contact form for users to email our clients.  
- * 
- * multiple.php provides a larger form with more elements to provide 
- * a richer example form.
- *
- * 
- */
-
-#--------------END CONFIG AREA ------------------------#
-?>
+<?php include 'includes/header.php' ?>
 
 <!-- START HTML FORM -->
 <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
@@ -89,3 +77,5 @@
 <br/>
 </form>
 <!-- END HTML FORM -->
+
+<?php include 'includes/footer.php' ?>
