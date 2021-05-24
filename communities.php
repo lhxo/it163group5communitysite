@@ -76,9 +76,6 @@
                 <div class="types"><a href="practice.php">Practice</a></div>
                 <div class="types"><a href="organization.php">Organization</a></div>
                 <div class="types"><a href="communities.php">12</a></div>
-                <div class="types"><a href="communities.php">13</a></div>
-                <div class="types"><a href="communities.php">14</a></div>
-                <div class="types"><a href="communities.php">15</a></div>
             </div> <!-- end cat-->
         </div> <!-- end categories-->
         <br>
