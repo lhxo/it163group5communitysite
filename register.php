@@ -14,6 +14,6 @@
         $toName = ""; 
         $website = "seattlecomms.com";  //place NAME of your client's website
 
-        echo loadContact('multiple.php');
+        echo loadContact('includes/multiple.php');
 
         include 'includes/footer.php' ?>

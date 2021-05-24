@@ -1,4 +1,4 @@
-<?php include 'includes/header.php' ?>
+<?php ?>
 
 <!-- START HTML FORM -->
 <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
