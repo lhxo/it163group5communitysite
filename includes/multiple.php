@@ -27,9 +27,9 @@
     <input type="text" name="text">
 
     <input type="submit" value="Join now !">
-  </fieldset>
-  <br/>
+</fieldset>
 </div>
+<br/>
 
 <div class="howuheard">	
     <label>
@@ -44,6 +44,7 @@
         </select>
     </label>
 </div>
+<br/>
 
 <div class="service">
     <fieldset>
@@ -55,6 +56,7 @@
         <input type="checkbox" name="Interested_In[]" value="Other" /> Other <br />
     </fieldset>
 </div>
+<br/>
 
 <div class="mailinglist">	
     <fieldset>
@@ -65,6 +67,7 @@
         <input type="radio" name="Join_Mailing_List?" value="No" /> No <br />
     </fieldset>
 </div>
+<br/>
 
 <div>	
     <label>

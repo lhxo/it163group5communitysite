@@ -142,11 +142,13 @@ header {
 .main .fourth {
     border: 2px dotted red;
     background-color: #f1f8fe;
+    border-radius: 3px;
 }
 
 .main .half {
     border: 2px dotted blue;
     background-color: #f1f8fe;
+    border-radius: 3px;
 }
 
 .main .half img {
@@ -273,7 +275,7 @@ footer {
 
 .social {
     background-color: #46C3A6;
-    grid-column: span 12;
+    grid-column: span 3;
 }
 
 .smbuttons {
@@ -291,15 +293,15 @@ footer {
 }
 
 .ig {
-    grid-column: span 4;
+    grid-column: span 1;
 }
 
 .tw {
-    grid-column: span 4;
+    grid-column: span 1;
 }
 
 .fb {
-    grid-column: span 4;
+    grid-column: span 1;
 }
 
 .copyright {
@@ -318,7 +320,7 @@ footer {
         position: relative;
         width: 100%;
 }
-    /* .fourth {
+    .fourth {
         display: grid;
         grid-template-areas: 
         ".popcomms .popcomms"
@@ -328,7 +330,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-} */
+}
 
     footer {
         display: block;
