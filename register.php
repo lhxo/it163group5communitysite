@@ -11,7 +11,7 @@
         include 'includes/contact_include.php'; #site keys & code here
 
         $toAddress = "contact@seattlecomms.com";  
-        $toName = "Enkhzul Jargalsaikhan"; 
+        $toName = ""; 
         $website = "seattlecomms.com";  //place NAME of your client's website
 
         echo loadContact('multiple.php');
