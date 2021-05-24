@@ -8,8 +8,8 @@
 
         <div class="fourth">
             <h3>Contact Information</h3>
-            <p><a href="communities.html">Communities</a></p>
-            <p><a href="faq.html">FAQ</a></p>
+            <p><a href="communities.php">Communities</a></p>
+            <p><a href="faq.php">FAQ</a></p>
         </div>
 
         <div class="fourth">
