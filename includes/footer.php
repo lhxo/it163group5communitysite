@@ -47,7 +47,7 @@
         </div>
 
         <div class="copyright">
-            <p>&copy; 2021
+            <p>&copy;
                 <?php echo date("Y"); ?> Seattle Comms. All rights reserved. All trademarks are property of their
                 respective owners in the US and other countries.
             </p>

@@ -77,5 +77,3 @@
 <br/>
 </form>
 <!-- END HTML FORM -->
-
-<?php include 'includes/footer.php' ?>

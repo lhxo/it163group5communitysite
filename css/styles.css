@@ -341,21 +341,6 @@ footer {
         position: relative;
         width: 100%;
     }
-    /* .fourth {
-        display: grid;
-        grid-template-areas: 
-        ".popcomms .popcomms"
-        ".newcomms .newcomms";
-}
-    .categories .cat {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-} */
-
-    footer {
-        display: block;
-}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
