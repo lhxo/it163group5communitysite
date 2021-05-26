@@ -7,7 +7,6 @@
     <title></title>
 
     <link href="css/styles.css" type="text/css" rel="stylesheet">
-    <link href="js/index.js" type="text/js" rel="stylesheet">
 </head>
 
 <body>

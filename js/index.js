@@ -1,28 +1,28 @@
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+function checkLength(e, minLength) {         
+  var el, elMsg;                             
+  if (!e) {                                  
+    e = window.event;                        
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+  el = e.target || e.srcElement;             
+  elMsg = el.nextSibling;                    // Get its next sibling
+ 
+  if (el.value.length < minLength) {         
+    elMsg.innerHTML = 'Username must be ' + minLength + ' characters or more';
+  } else {                                   
+    elMsg.innerHTML = '';                    
 }
+ 
+var elUsername = document.getElementById('username');
+if (elUsername.addEventListener) {           
+  elUsername.addEventListener('blur', function(e) {  
+    // NOTE: This function is checkLength() - not checkUsername()
+    checkLength(e, 5);                             
+  }, false);                                      
+} else {                                           
+  elUsername.attachEvent('onblur', function(e) {   
+    // NOTE: This function is checkLength() - not checkUsername()
+    checkLength(e, 5);                             
+  });
+}
+
+
