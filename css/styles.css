@@ -72,14 +72,6 @@ body {
     margin-right: auto;
 }
 
-/* font awesome icon styles
-i.logo {
-    color: rgba(142, 8, 6, 1);
-    text-shadow: 1px 1px #ccc; gives the icon a little depth
-    font-size: 1.25em; font awesome icons are text, so make it a bit bigger
-    margin-left: 1%; this keeps the icon from being squeeezed to the left
-} */
-
 header {
     position: fixed;
     top: 0; /* for keeping stable */
@@ -260,8 +252,9 @@ p {
     font-style: 200;
 }
 
-form {
-    width: auto;
+.register-login {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .signup {
