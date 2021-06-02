@@ -30,7 +30,8 @@
  
       </form>
     </div>
+
+    <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div> 
     </div> <!-- end register-login -->
 
     <?php include 'includes/footer.php' ?>
-

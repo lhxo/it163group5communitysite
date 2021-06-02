@@ -64,14 +64,14 @@
         <div class="categories">
             <h1>Categories</h1>
             <div class="cat">
-                <div class="types"><a href="hobbies.php">Hobbies</a></div>
-                <div class="types"><a href="sports.php">Sports</a></div>
-                <div class="types"><a href="food.php">Food</a></div>
-                <div class="types"><a href="language.php">Language</a></div>
-                <div class="types"><a href="event.php">Event</a></div>
-                <div class="types"><a href="interest.php">Interests</a></div>
-                <div class="types"><a href="tech.php">Tech</a></div>
-                <div class="types"><a href="support.php">Support</a></div>
+                <div class="types"><a href="networking.php">Professional Networking</a></div>
+                <div class="types"><a href="environment.php">Environmental Activism</a></div>
+                <div class="types"><a href="lifestyle.php">Sustainable Lifestyle</a></div>
+                <div class="types"><a href="homes.php">Sustainable Homes</a></div>
+                <div class="types"><a href="vegan.php">Vegan & vegetarian</a></div>
+                <div class="types"><a href="hiking.php">Hiking & outdoor exploration</a></div>
+                <div class="types"><a href="running.php">Running</a></div>
+                <div class="types"><a href="cycling.php">Cycling</a></div>
                 <div class="types"><a href="conversation.php">Conversation</a></div>
                 <div class="types"><a href="practice.php">Practice</a></div>
                 <div class="types"><a href="organization.php">Organization</a></div>
