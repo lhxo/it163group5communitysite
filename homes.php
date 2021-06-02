@@ -3,7 +3,7 @@
 <div class="main"> 
         <div class="about">
             <h4>Hiking & outdoor exploration</h4>
-                <img src="images/hiking2.jpeg" alt="hiking"><br>
+                <img src="images/sus-home.jpeg" alt="sustainable-home"><br>
                 <ul>
                     <li><a href="https://www.wta.org/">Washington Trails Association</a>
                         <p>If you love hiking and the outdoors, this is the organization for you.</p></li>
