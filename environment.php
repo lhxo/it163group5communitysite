@@ -2,17 +2,13 @@
 
 <div class="main"> 
         <div class="about">
-            <h4>Hiking & outdoor exploration</h4>
-                <img src="images/hiking2.jpeg" alt="hiking"><br>
+            <h4>Environmental Activism</h4>
+                <img src="images/environment.jpeg" alt="environment"><br>
                 <ul>
-                    <li><a href="https://www.wta.org/">Washington Trails Association</a>
-                        <p>If you love hiking and the outdoors, this is the organization for you.</p></li>
-                    <li><a href="https://www.meetup.com/SeattleOutdoorAdventurers/">Seattle Outdoor Adventurers (SOA)</a>
-                        <p>SOA brings people together who love the great outdoors. We hike everywhere from cities to mountains to deserts; go backpacking, biking, and climbing; we ski and snowshoe, sail and swim, and in other ways celebrate nature.</p></li>
-                    <li><a href="https://www.meetup.com/tenderfootadventures/">Tenderfoot Adventures</a>
-                        <p>One of the few meetup groups with monthly dues, this group has full-time event planners and managers leading Tuesday urban treks, Thursday moderate hikes, and Sunday difficult hikes, as well as other social and outdoor activities. The group is comprised of “mostly retired folks” but they “happily accept active people of all ages.” The group has “a good mix of couples and singles, who love to keep fit physically, socially, and mentally.”</p></li>
-                    <li><a href="https://www.meetup.com/meetup-group-fbtbzXRJ/">Explorer Chicks of Seattle</a>
-                        <p>This is for “Chicks who dig the Outdoor, Adventurous life and Travel!” This group is sponsored by “Explorer Chick … an Adventure Travel Company that offers Women-Only, Small Group Trips, Work Shops, and Mini’s in the outdoors.”  Their adventures include “hiking, camping, rafting, backpacking, road trips, canyoning, surfing and more!”</p></li>
+                    <li><a href="https://www.facebook.com/CCLSeattle/">Seattle Citizen's Climate Lobby (CCL) and CCL Bellevue</a>
+                        <p>CCL helps “build the political will to support national legislation to address climate change and accelerate the transition to a sustainable, clean energy-based economy.” They  “focus on developing relationships with congressional representatives and the local media through letters, phone calls, and meetings.” Events include monthly meetings, letter-writing, workshops and more.</p></li>
+                    <li><a href="https://350seattle.org/">350 Seattle</a>
+                        <p>This is a volunteer-powered climate justice organization organized by interest groups called “workgroups.” They make it easy to find ways to let your voice be heard on climate issues through events such as protests, public hearings, and blockades. 350 Seattle part of the national organization, 350.org.</p></li>
                 </ul>
         </div>
 
