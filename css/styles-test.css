@@ -93,40 +93,45 @@ header {
 .main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    background-image: url("../images/newsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../images/newsplash.jpg");
     background-size: cover;
     grid-gap: 10px 10px;
-    padding: 20px;
+    padding: 100px;
 }
 
 .splash {
     grid-column: span 13;
-    margin: 0 auto;
+    margin: 0 100px 0 0;
 }
 
 .splash p {
     margin-top: 200px;
     margin-bottom: 150px;
     color: #fff;
-    font-size: 4em;
-    font-style: normal;
-    font-variant: normal;
-    text-align: left;
+    font-size: 6vw;
+    font-style: italic;
+    text-align: center;
     text-shadow: 0 1px 1px #000;
 }
 
 .index {
     grid-column: span 13;
-    margin: 10px auto;
+    margin: 15px 100px;
 }
 
 .index p {
-    color: #fff;
-    font-size: 1.4em;
-    font-style: italic;
-    font-variant: normal;
-    text-align: center;
-    text-shadow: 0 1px 1px #000;
+    color: darkslategrey;
+    font-size: 1.4vw;
+	font-weight: bolder;
+    text-align: left;
+}
+
+.index .inner {
+    grid-column: span 3;
+}
+
+.half {
+    grid-column: span 6;
 }
 
 .fourth {
@@ -139,10 +144,6 @@ header {
     display: block;
     font-size: 0.9em;
     text-shadow: 0 0.5px 0.5px #505659;
-}
-
-.half {
-    grid-column: span 6;
 }
 
 .main .fourth {
