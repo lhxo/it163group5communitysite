@@ -3,16 +3,12 @@
 <div class="main"> 
         <div class="about">
             <h4>Hiking & outdoor exploration</h4>
-                <img src="images/hiking2.jpeg" alt="hiking"><br>
+                <img src="images/cycling.jpeg" alt="cycling"><br>
                 <ul>
-                    <li><a href="https://www.wta.org/">Washington Trails Association</a>
-                        <p>If you love hiking and the outdoors, this is the organization for you.</p></li>
-                    <li><a href="https://www.meetup.com/SeattleOutdoorAdventurers/">Seattle Outdoor Adventurers (SOA)</a>
-                        <p>SOA brings people together who love the great outdoors. We hike everywhere from cities to mountains to deserts; go backpacking, biking, and climbing; we ski and snowshoe, sail and swim, and in other ways celebrate nature.</p></li>
-                    <li><a href="https://www.meetup.com/tenderfootadventures/">Tenderfoot Adventures</a>
-                        <p>One of the few meetup groups with monthly dues, this group has full-time event planners and managers leading Tuesday urban treks, Thursday moderate hikes, and Sunday difficult hikes, as well as other social and outdoor activities. The group is comprised of “mostly retired folks” but they “happily accept active people of all ages.” The group has “a good mix of couples and singles, who love to keep fit physically, socially, and mentally.”</p></li>
-                    <li><a href="https://www.meetup.com/meetup-group-fbtbzXRJ/">Explorer Chicks of Seattle</a>
-                        <p>This is for “Chicks who dig the Outdoor, Adventurous life and Travel!” This group is sponsored by “Explorer Chick … an Adventure Travel Company that offers Women-Only, Small Group Trips, Work Shops, and Mini’s in the outdoors.”  Their adventures include “hiking, camping, rafting, backpacking, road trips, canyoning, surfing and more!”</p></li>
+                    <li><a href="https://www.rapha.cc/us/en_US/clubhouses/seattle">Rapha Cycling Club (RCC)</a>
+                        <p>RCC is an international cycling club with a chapter in Seattle. Their Seattle clubhouse is located in Capitol Hill. They host free rides, as well as club rides and other benefits for paid members.</p></li>
+                    <li><a href="https://www.meetup.com/cascaderides/">Cascade Free Group Rides</a>
+                        <p>A very active cycling group with free group rides across Seattle and surrounding cities. “Cascade Bicycle Club," the nation’s largest statewide bicycle nonprofit, serves bike riders of all ages and abilities throughout the state of Washington. With a mission to improve lives through bicycling, we teach the joys of bicycling, advocate for safe places to ride, and produce world-class rides and events.</p></li>
                 </ul>
         </div>
 
