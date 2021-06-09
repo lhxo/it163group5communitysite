@@ -2,7 +2,7 @@
 
 <div class="main"> 
         <div class="about">
-            <h4>Running</h4>
+            <h4>Running Clubs in Seattle</h4>
                 <img src="images/running.jpeg" alt="running"><br>
                 <ul>
                     <li><a href="https://www.facebook.com/groups/1587540454595219/">Club Seattle Runners Division (CSRD)</a>
@@ -27,7 +27,7 @@
                 <div class="types"><a href="cycling.php">Cycling</a></div>
                 <div class="types"><a href="conversation.php">Conversation</a></div>
                 <div class="types"><a href="photographers.php">Photographers</a></div>
-                <div class="types"><a href="practice.php">Practice</a></div>
+                <div class="types"><a href="hobbies.php">Hobbies</a></div>
                 <div class="types"><a href="singles.php">Singles Events</a></div>
             </div> <!-- end cat-->
         </div> <!-- end categories-->

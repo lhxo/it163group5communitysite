@@ -2,7 +2,7 @@
 
 <div class="main"> 
         <div class="about">
-            <h4>Hiking & outdoor exploration</h4>
+            <h4>Singles' Social Groups in Seattle</h4>
                 <img src="images/singles.jpeg" alt="singles"><br>
                 <ul>
                     <li><a href="https://www.meetup.com/SeattleSinglesItzaDate/">Seattle Singles</a>
@@ -30,7 +30,7 @@
                 <div class="types"><a href="cycling.php">Cycling</a></div>
                 <div class="types"><a href="conversation.php">Conversation</a></div>
                 <div class="types"><a href="photographers.php">Photographers</a></div>
-                <div class="types"><a href="practice.php">Practice</a></div>
+                <div class="types"><a href="hobbies.php">Hobbies</a></div>
                 <div class="types"><a href="singles.php">Singles Events</a></div>
             </div> <!-- end cat-->
         </div> <!-- end categories-->

@@ -2,7 +2,7 @@
 
 <div class="main"> 
         <div class="about">
-            <h4>Hiking & outdoor exploration</h4>
+            <h4>Cycling Clubs in Seattle</h4>
                 <img src="images/cycling.jpeg" alt="cycling"><br>
                 <ul>
                     <li><a href="https://www.rapha.cc/us/en_US/clubhouses/seattle">Rapha Cycling Club (RCC)</a>
@@ -25,7 +25,7 @@
                 <div class="types"><a href="cycling.php">Cycling</a></div>
                 <div class="types"><a href="conversation.php">Conversation</a></div>
                 <div class="types"><a href="photographers.php">Photographers</a></div>
-                <div class="types"><a href="practice.php">Practice</a></div>
+                <div class="types"><a href="hobbies.php">Hobbies</a></div>
                 <div class="types"><a href="singles.php">Singles Events</a></div>
             </div> <!-- end cat-->
         </div> <!-- end categories-->
