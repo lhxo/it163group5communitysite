@@ -115,8 +115,8 @@ header {
 }
 
 .body-index {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 10px 10px;
 	padding: 100px;
 }
@@ -133,9 +133,16 @@ header {
 }
 
 .fourth {
+	padding-top: 50px;
+    grid-column: span 3;
+}
+
+.third {
     grid-column: span 3;
     background-color: #f1f8fe;
     border-radius: 3px;
+	margin: 5px;
+	padding: 10px;
 }
 
 .fourth a {
@@ -157,11 +164,6 @@ header {
 
 .main .half img {
     margin: 0 auto;
-}
-
-.popcomms, .newcomms {
-    grid-column: span 3;
-    height: 250px;
 }
 
 .comms {
