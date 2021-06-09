@@ -114,12 +114,12 @@ header {
     text-shadow: 0 1px 1px #000;
 }
 
-/* .body-index {
+.body-index {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 10px 10px;
 	padding: 100px;
-} */
+}
 
 .index {
     grid-column: span 13;
