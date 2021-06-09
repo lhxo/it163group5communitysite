@@ -2,17 +2,15 @@
 
 <div class="main"> 
         <div class="about">
-            <h4>Hiking & outdoor exploration</h4>
-                <img src="images/hiking2.jpeg" alt="hiking"><br>
+            <h4>Running</h4>
+                <img src="images/running.jpeg" alt="running"><br>
                 <ul>
-                    <li><a href="https://www.wta.org/">Washington Trails Association</a>
-                        <p>If you love hiking and the outdoors, this is the organization for you.</p></li>
-                    <li><a href="https://www.meetup.com/SeattleOutdoorAdventurers/">Seattle Outdoor Adventurers (SOA)</a>
-                        <p>SOA brings people together who love the great outdoors. We hike everywhere from cities to mountains to deserts; go backpacking, biking, and climbing; we ski and snowshoe, sail and swim, and in other ways celebrate nature.</p></li>
-                    <li><a href="https://www.meetup.com/tenderfootadventures/">Tenderfoot Adventures</a>
-                        <p>One of the few meetup groups with monthly dues, this group has full-time event planners and managers leading Tuesday urban treks, Thursday moderate hikes, and Sunday difficult hikes, as well as other social and outdoor activities. The group is comprised of “mostly retired folks” but they “happily accept active people of all ages.” The group has “a good mix of couples and singles, who love to keep fit physically, socially, and mentally.”</p></li>
-                    <li><a href="https://www.meetup.com/meetup-group-fbtbzXRJ/">Explorer Chicks of Seattle</a>
-                        <p>This is for “Chicks who dig the Outdoor, Adventurous life and Travel!” This group is sponsored by “Explorer Chick … an Adventure Travel Company that offers Women-Only, Small Group Trips, Work Shops, and Mini’s in the outdoors.”  Their adventures include “hiking, camping, rafting, backpacking, road trips, canyoning, surfing and more!”</p></li>
+                    <li><a href="https://www.facebook.com/groups/1587540454595219/">Club Seattle Runners Division (CSRD)</a>
+                        <p>This group meets every Thursday evening for a run at your own pace (all levels welcome!), followed by hangin’ at one of the many local breweries in the area.” They urge you to “come out and meet other members of our community who believe that no run is complete without a tasty pint (or 3!) to wash it down.</p></li>
+                    <li><a href="https://www.meetup.com/Frelard-Run-Club/">Frelard (Fremont/Ballard) Run Club</a>
+                        <p>“Seattle’s newest running crew. We may be new to the scene, but our crew love is deep. Come join your follow Seattleites for some runs, fun, and goal smashing throughout Washington and across the globe. We’ll be hosting runs and workouts several times a week throughout the city and building a community of running and training partners.”</p></li>
+                    <li><a href="https://www.meetup.com/Seattle-Greenlake-Running-Group/">Seattle Green Lake Running Group</a>
+                        <p>This group has extensive collection of weekly and biweekly running meetups at Green Lake and the surrounding neighborhoods. The Seattle Green Lake Running Group was created with the intent of creating a running community that supports and encourages a healthy and active lifestyle through group events and participation.</p></li>
                 </ul>
         </div>
 

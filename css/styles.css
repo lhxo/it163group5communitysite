@@ -351,6 +351,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        height: 100%;
 }
 
     footer {
@@ -363,7 +364,7 @@ footer {
     .main {
         position: relative;
         width: 100%;
-    }
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

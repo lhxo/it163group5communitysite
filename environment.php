@@ -33,4 +33,4 @@
         <br>
     </div><!-- end main-->
 
-<?php include 'includes/footer.php' ?>
+    <?php include 'includes/footer.php' ?>
