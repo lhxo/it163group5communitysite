@@ -4,7 +4,8 @@
         <div class="splash">
             <p>Find Your Community</p>
         </div>
-
+	</div>
+	<div class="body-index">
         <div class="index">
             <p>Join a group to meet people, make friends, find support, grow a business, and explore your interests. Thousands of events are happening every day, both online and in person!</p>
         </div>
@@ -19,7 +20,7 @@
 
         <div class="half">
             <img src="images/bubbles.png" alt="bubbles">
-        </div>
-    </div><!-- end main-->
+		</div>
+	</div>
 
     <?php include 'includes/footer.php' ?>
