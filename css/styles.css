@@ -268,7 +268,7 @@ p {
 
 .about img {
     margin: 0 auto;
-}
+    height: 300px;
 
 .register-login {
     display: grid;
