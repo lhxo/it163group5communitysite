@@ -8,12 +8,15 @@
                     <li><a href="https://www.meetup.com/SeattlePhotowalks/">Seattle Photowalks</a>
                         <p>We are a group of photographers, photo enthusiasts and creatives with interests that run from the most current in digital cameras to a passion for all things analogue. If you’re new to photography or a seasoned pro, this group is a great way to get out and socialise with people who have a similar interest.
                         Our goal is to host 1-2 events a month, from Photowalks in varying neighbourhoods around Seattle, and surrounding areas, to social hours,</p></li>
+                        <br>
                     <li><a href="https://www.meetup.com/Northwest-Wildlife-Nature-Photography/">Northwest Nature & Wildlife Photography</a>
                         <p>Northwest Nature & Wildlife Photography is group for photographers of all skill levels. We desire to share nature, wildlife and photography, photographic learning and outdoor outings.
                         This group is led by Noel Nic'Fergusson, an established 30+ year professional wildlife and wilderness photographer, who travels and photographs remote regions from Arctic to Antarctica. An experienced lecturer, naturalist and field guide.</p></li>
+                        <br>
                     <li><a href="https://www.meetup.com/Puget-Sound-Camera-Club-Meetup/">Puget Sound Camera Club Meetup Group</a>
                         <p>The Puget Sound Camera Club (PSCC) endeavors to provide fellowship and to advance the skills of the serious amateur photographer. We encourage a free exchange of ideas on both the artistic and technical aspects of photography. We feel the input gained from comments and critiques by other members is invaluable to building our skills as creative artists.</p></li>
-                        <li><a href="https://www.meetup.com/Seattle-Photographic-Society-Meetup/">Seattle Photographic Society Meetup</a>
+                        <br>
+                    <li><a href="https://www.meetup.com/Seattle-Photographic-Society-Meetup/">Seattle Photographic Society Meetup</a>
                         <p>The Seattle Photographic Society (SPS) was formed to help its members learn skills for capturing great images and sharing them with others. Novices, amateurs, advanced amateurs, and professional photographers are welcome.</p></li>
                 </ul>
         </div>

@@ -7,6 +7,7 @@
                 <ul>
                     <li><a href="https://www.facebook.com/CCLSeattle/">Seattle Citizen's Climate Lobby (CCL) and CCL Bellevue</a>
                         <p>CCL helps “build the political will to support national legislation to address climate change and accelerate the transition to a sustainable, clean energy-based economy.” They  “focus on developing relationships with congressional representatives and the local media through letters, phone calls, and meetings.” Events include monthly meetings, letter-writing, workshops and more.</p></li>
+                        <br>
                     <li><a href="https://350seattle.org/">350 Seattle</a>
                         <p>This is a volunteer-powered climate justice organization organized by interest groups called “workgroups.” They make it easy to find ways to let your voice be heard on climate issues through events such as protests, public hearings, and blockades. 350 Seattle part of the national organization, 350.org.</p></li>
                 </ul>

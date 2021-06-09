@@ -7,8 +7,10 @@
                 <ul>
                     <li><a href="https://www.facebook.com/groups/1587540454595219/">Club Seattle Runners Division (CSRD)</a>
                         <p>This group meets every Thursday evening for a run at your own pace (all levels welcome!), followed by hangin’ at one of the many local breweries in the area.” They urge you to “come out and meet other members of our community who believe that no run is complete without a tasty pint (or 3!) to wash it down.</p></li>
+                        <br>
                     <li><a href="https://www.meetup.com/Frelard-Run-Club/">Frelard (Fremont/Ballard) Run Club</a>
                         <p>“Seattle’s newest running crew. We may be new to the scene, but our crew love is deep. Come join your follow Seattleites for some runs, fun, and goal smashing throughout Washington and across the globe. We’ll be hosting runs and workouts several times a week throughout the city and building a community of running and training partners.”</p></li>
+                        <br>
                     <li><a href="https://www.meetup.com/Seattle-Greenlake-Running-Group/">Seattle Green Lake Running Group</a>
                         <p>This group has extensive collection of weekly and biweekly running meetups at Green Lake and the surrounding neighborhoods. The Seattle Green Lake Running Group was created with the intent of creating a running community that supports and encourages a healthy and active lifestyle through group events and participation.</p></li>
                 </ul>
