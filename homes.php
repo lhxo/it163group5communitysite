@@ -7,6 +7,7 @@
                 <ul>
                     <li><a href="https://www.ecobuilding.org/">Northwest EcoBuilding Guild</a>
                         <p>This is a non-profit organization and community of builders, designers, suppliers, homeowners, and partners concerned with ecological building in the Pacific Northwest. The Guild empowers people through education to transform the built environment for long term sustainability.</p></li>
+                        <br>
                     <li><a href="https://living-future.org/our-impact/#cascadia-gbc">Cascadia Green Building Coalition</a>
                         <p>Cascadia is a powerful network of sustainability practitioners pushing the boundaries in the bio-region through locally relevant programming. Our network advocates for progressive green building laws, regulations and incentives; and helps remove legal barriers to advanced green building practices in our region.</p></li>
                 </ul>
@@ -24,9 +25,9 @@
                 <div class="types"><a href="running.php">Running</a></div>
                 <div class="types"><a href="cycling.php">Cycling</a></div>
                 <div class="types"><a href="conversation.php">Conversation</a></div>
-                <div class="types"><a href="practice.php">Practice</a></div>
-                <div class="types"><a href="organization.php">Organization</a></div>
-                <div class="types"><a href="communities.php">12</a></div>
+                <div class="types"><a href="photographers.php">Photographers</a></div>
+                <div class="types"><a href="hobbies.php">Hobbies</a></div>
+                <div class="types"><a href="singles.php">Singles Events</a></div>
             </div> <!-- end cat-->
         </div> <!-- end categories-->
         <br>

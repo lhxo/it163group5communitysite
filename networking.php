@@ -7,6 +7,7 @@
                 <ul>
                     <li><a href="https://www.facebook.com/groups/seattlegreendrinks/">Seattle Green Drinks</a>
                         <p>Part of the international Green Drinks network, Seattle Green Drinks is an informal social networking group built around an interest in the natural environment. All are welcome to join … the second Tuesday of every month, starting around 5:30pm. The goal of [the] group is pretty simple: good times shared among people working in, or interested in, environmental and sustainability issues.</p></li>
+                        <br>
                     <li><a href="https://seattle.ecowomen.org/">Seattle Eco Women</a>
                         <p>The Seattle chapter of EcoWomen is creating a network of women with personal and professional interests in the environment.” They host happy hours, workshops, outdoor events, and more.</p></li>
                 </ul>
@@ -24,9 +25,9 @@
                 <div class="types"><a href="running.php">Running</a></div>
                 <div class="types"><a href="cycling.php">Cycling</a></div>
                 <div class="types"><a href="conversation.php">Conversation</a></div>
-                <div class="types"><a href="practice.php">Practice</a></div>
-                <div class="types"><a href="organization.php">Organization</a></div>
-                <div class="types"><a href="communities.php">12</a></div>
+                <div class="types"><a href="photographers.php">Photographers</a></div>
+                <div class="types"><a href="hobbies.php">Hobbies</a></div>
+                <div class="types"><a href="singles.php">Singles Events</a></div>
             </div> <!-- end cat-->
         </div> <!-- end categories-->
         <br>

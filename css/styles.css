@@ -123,7 +123,6 @@ header {
 
 .index {
     grid-column: span 13;
-    margin: 15px 100px;
 }
 
 .index p {
@@ -135,6 +134,8 @@ header {
 
 .fourth {
     grid-column: span 3;
+    background-color: #f1f8fe;
+    border-radius: 3px;
 }
 
 .fourth a {
@@ -149,11 +150,6 @@ header {
     grid-column: span 6;
 }
 
-.main .fourth {
-    background-color: #f1f8fe;
-    border-radius: 3px;
-}
-
 .main .half {
     background-color: transparent;
     border-radius: 3px;
@@ -161,6 +157,11 @@ header {
 
 .main .half img {
     margin: 0 auto;
+}
+
+.popcomms, .newcomms {
+    grid-column: span 3;
+    height: 250px;
 }
 
 .comms {
@@ -175,8 +176,6 @@ header {
 .categories {
     display: grid;
     grid-column: span 13;
-    /* background-color: chartreuse;
-    height: */
 }
 
 .categories .cat {
@@ -220,7 +219,7 @@ h1 {
     margin-top: 10px;
     margin-bottom: 15px;
     color: #279377;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-style: italic;
     font-variant: normal;
     text-transform: capitalize;
@@ -268,6 +267,7 @@ p {
 
 .about img {
     margin: 0 auto;
+    height: 300px;
 }
 
 .register-login {
@@ -344,13 +344,13 @@ footer {
     .fourth {
         display: grid;
         grid-template-areas: 
-        ".popcomms .popcomms"
-        ".newcomms .newcomms";
+        ".popcomms .newcomms"
+        ".popcomms .newcomms";
 }
     .categories .cat {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         height: 100%;
 }
 
