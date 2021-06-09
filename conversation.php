@@ -2,17 +2,17 @@
 
 <div class="main"> 
         <div class="about">
-            <h4>Hiking & outdoor exploration</h4>
-                <img src="images/hiking2.jpeg" alt="hiking"><br>
+            <h4>Conversational Social Groups in Seattle</h4>
+                <img src="images/conversation.jpeg" alt="conversation"><br>
                 <ul>
-                    <li><a href="https://www.wta.org/">Washington Trails Association</a>
-                        <p>If you love hiking and the outdoors, this is the organization for you.</p></li>
-                    <li><a href="https://www.meetup.com/SeattleOutdoorAdventurers/">Seattle Outdoor Adventurers (SOA)</a>
-                        <p>SOA brings people together who love the great outdoors. We hike everywhere from cities to mountains to deserts; go backpacking, biking, and climbing; we ski and snowshoe, sail and swim, and in other ways celebrate nature.</p></li>
-                    <li><a href="https://www.meetup.com/tenderfootadventures/">Tenderfoot Adventures</a>
-                        <p>One of the few meetup groups with monthly dues, this group has full-time event planners and managers leading Tuesday urban treks, Thursday moderate hikes, and Sunday difficult hikes, as well as other social and outdoor activities. The group is comprised of “mostly retired folks” but they “happily accept active people of all ages.” The group has “a good mix of couples and singles, who love to keep fit physically, socially, and mentally.”</p></li>
-                    <li><a href="https://www.meetup.com/meetup-group-fbtbzXRJ/">Explorer Chicks of Seattle</a>
-                        <p>This is for “Chicks who dig the Outdoor, Adventurous life and Travel!” This group is sponsored by “Explorer Chick … an Adventure Travel Company that offers Women-Only, Small Group Trips, Work Shops, and Mini’s in the outdoors.”  Their adventures include “hiking, camping, rafting, backpacking, road trips, canyoning, surfing and more!”</p></li>
+                    <li><a href="https://www.meetup.com/Seattle-Language-Culture-Meetup/">Seattle Language & Culture Meetup</a>
+                        <p>This is a group for anyone interested in any language or world culture. Any level of experience with a language is welcome.</p></li>
+                    <li><a href="https://www.meetup.com/Meaningful-Conversations-Tacoma/">Meaningful Conversations Tacoma</a>
+                        <p>Join a different kind of conversation where all perspectives are welcome as we search for the spiritual truths that unite us all.</p></li>
+                    <li><a href="https://www.meetup.com/Creative-Introverts-Being-Extroverts-20s-30s/">Creative Introverts Being Extroverts</a>
+                        <p>This group is for introverted artists (20s-40s) who enjoy meeting new people and socializing. Whether you're a painter, writer, photographer, designer, crafter or enjoy creating any other medium of art, this group is for you. We will meet at bars or cafes to simply engage in conversation and get to know one other. You don't necessarily have to be an artist so if you even have an interest in anything creative, you're more than welcome.</p></li>
+                    <li><a href="https://www.meetup.com/Seattle-Conversational-AI/">Seattle Conversational AI Group</a>
+                        <p>Conversational AI with speech recognition, natural language processing, multi-channel conversations including phone call, texting, chat and email, predictive actions will be the next big wave for businesses and individuals to leverage machine learning and latest artificial intelligence. This group is to meet those researchers, scientists, practitioners, enthusiasts and learners to share the latest findings and applications.</p></li>
                 </ul>
         </div>
 
@@ -28,9 +28,9 @@
                 <div class="types"><a href="running.php">Running</a></div>
                 <div class="types"><a href="cycling.php">Cycling</a></div>
                 <div class="types"><a href="conversation.php">Conversation</a></div>
+                <div class="types"><a href="photographers.php">Photographers</a></div>
                 <div class="types"><a href="practice.php">Practice</a></div>
-                <div class="types"><a href="organization.php">Organization</a></div>
-                <div class="types"><a href="communities.php">12</a></div>
+                <div class="types"><a href="singles.php">Singles Events</a></div>
             </div> <!-- end cat-->
         </div> <!-- end categories-->
         <br>

@@ -25,9 +25,9 @@
                 <div class="types"><a href="running.php">Running</a></div>
                 <div class="types"><a href="cycling.php">Cycling</a></div>
                 <div class="types"><a href="conversation.php">Conversation</a></div>
+                <div class="types"><a href="photographers.php">Photographers</a></div>
                 <div class="types"><a href="practice.php">Practice</a></div>
-                <div class="types"><a href="organization.php">Organization</a></div>
-                <div class="types"><a href="communities.php">12</a></div>
+                <div class="types"><a href="singles.php">Singles Events</a></div>
             </div> <!-- end cat-->
         </div> <!-- end categories-->
         <br>
