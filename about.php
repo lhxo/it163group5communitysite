@@ -1,10 +1,10 @@
 <?php include 'includes/header.php' ?>
 
-    <div class="main">
+ 	<div class="main">
         <div class="splash">
             <p>About us</p>
         </div>
-
+	</div>
         <div class="about">
             <ul>
                 <li>
@@ -23,9 +23,7 @@
                 <br>
             </ul>
         </div>
-
         <br>
-        <br>
-    </div><!-- end main-->
+        <br><!-- end main-->
 
     <?php include 'includes/footer.php' ?>
