@@ -359,23 +359,6 @@ footer {
         position: relative;
         width: 100%;
 }
-    .fourth {
-        display: grid;
-        grid-template-areas: 
-        ".popcomms .popcomms"
-        ".newcomms .newcomms";
-}
-    .categories .cat {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        height: 100%;
-}
-
-    footer {
-        display: block;
-}
-}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
