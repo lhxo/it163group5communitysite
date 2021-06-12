@@ -17,7 +17,7 @@
         </div>
 
         <div class="third">
-            <img src="images/IMG_1459.jpg" alt="">
+            <img src="../images/IMG_1459.jpg" alt="">
             <h2>Julio Ramos</h2>
             <p>Description here</p>
             <h3>Communities I Follow</h3>
