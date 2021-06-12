@@ -19,7 +19,7 @@
         <div class="third">
             <img src="../images/IMG_1459.jpg" alt="">
             <h2>Julio Ramos</h2>
-            <p>Description here</p>
+            <p>I'm a New Englander who moved to Seattle in 2019, right before the COVID-19 pandemic. I'm a grocery worker who is working to become a web designer. I'm focused on functional, beautiful, and user friendly websites. I love to read, watch old horror movies, and coding!</p>
             <h3>Communities I Follow</h3>
             <a href="https://www.meetup.com/Seattle-Greenlake-Running-Group/"><h2>Seattle Greenlake Running Group</h2></a>
 			<p>This group has extensive collection of weekly and biweekly running meetups at Green Lake and the surrounding neighborhoods. The Seattle Green Lake Running Group was created with the intent of creating a running community that supports and encourages a healthy and active lifestyle through group events and participation.</p>
