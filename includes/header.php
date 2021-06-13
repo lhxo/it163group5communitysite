@@ -11,6 +11,7 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/myscript.js"></script>
     <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <link href="css/styles-dark.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
