@@ -10,10 +10,10 @@ function startTime() {
   m = checkTime(m);
   s = checkTime(s);
 
-  document.getElementById('timer1').textContent = alert('You are on this page for: ' + s + ' seconds.');
-  document.getElementById('timer2').textContent = alert('You are on this page for: ' + s + ' seconds.');
-  document.getElementById('timer3').textContent = alert('You are on this page for: ' + s + ' seconds.');
-  document.getElementById('timer4').textContent = alert('You are on this page for: ' + s + ' seconds.');
+  document.getElementById('timer1').textContent = alert('You are on this page for ' + s + ' seconds.');
+  document.getElementById('timer2').textContent = alert('You are on this page for ' + s + ' seconds.');
+  document.getElementById('timer3').textContent = alert('You are on this page for ' + s + ' seconds.');
+  document.getElementById('timer4').textContent = alert('You are on this page for ' + s + ' seconds.');
 
   var t = setTimeout(startTime, 1000);
 }
