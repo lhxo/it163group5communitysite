@@ -19,7 +19,7 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    background-color: #46C3A6;
+    background-color: black;
 }
 
 .nav {
@@ -52,7 +52,7 @@ body {
 }
 
 .nav a:hover {
-    color: #000;
+    color: whitesmoke;
     background-color: #fff;
     text-align: center;
     border-radius: 2px;
@@ -130,6 +130,7 @@ header {
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 10px 10px;
 	padding: 100px;
+	background-color: black;
 }
 
 .index {
@@ -137,7 +138,7 @@ header {
 }
 
 .index p {
-    color: darkslategrey;
+    color: whitesmoke;
     font-size: 1.4vw;
 	font-weight: bolder;
     text-align: center;
@@ -227,11 +228,15 @@ img {
     display: block;
 }
 
+p {
+	color: whitesmoke;
+}
+
 h1 {
     display: block;
     margin-top: 10px;
     margin-bottom: 15px;
-    color: #279377;
+    color: #46C3A6;
     font-size: 1.8em;
     font-style: italic;
     font-variant: normal;
@@ -242,14 +247,22 @@ h1 {
 h2 {
     margin-top: 10px;
     margin-bottom: 15px;
-    color: #2D2D2D;
+    color: whitesmoke;
     font-weight: bolder;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: lighter;
+	text-transform: uppercase;
 }
 
 h4 {
     margin-top: 10px;
     margin-bottom: 15px;
-    color: #2D2D2D;
+    color: white;
     font-weight: lighter;
 }
 
@@ -298,7 +311,7 @@ p {
 }
 
 footer {
-    background-color: #46C3A6;
+    background-color: black;
 	padding-left: 40px; 
     clear: both;
     font-size: 0.8em;
@@ -308,7 +321,7 @@ footer {
 }
 
 .social {
-    background-color: #46C3A6;
+    background-color: black;
     grid-column: span 3;
 }
 
@@ -339,10 +352,9 @@ footer {
 }
 
 .copyright {
-    background-color: #46C3A6;
+    background-color: black;
     grid-column: span 12;
     text-align: center;
-    text-shadow: 0 0.5px 0.5px #505659;
     padding: auto 0;
     color:#fff;
     margin-top: 30px;
