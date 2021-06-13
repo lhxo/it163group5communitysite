@@ -39,9 +39,9 @@
             <div class="social">
                 <h3>Follow us on social media!</h3>
                 <div class="smbuttons">
-                    <a class="ig" href=""><img src="images/ig.png" alt="instagram"></a>
-                    <a class="tw" href=""><img src="images/twit.png" alt="twitter"></a>
-                    <a class="fb" href=""><img src="images/fb.png" alt="facebook"></a>
+                    <a class="ig"><img src="../images/ig.png" alt="instagram"></a>
+                    <a class="tw"><img src="../images/twit.png" alt="twitter"></a>
+                    <a class="fb"><img src="../images/fb.png" alt="facebook"></a>
                 </div>
             </div> <!-- end social -->
         </div>

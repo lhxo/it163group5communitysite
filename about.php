@@ -20,7 +20,7 @@
         </div>
 
         <div class="third">
-            <img src="../images/IMG_1459.jpg" alt="image" height="250px">
+            <img src="../images/IMG_1459.jpg" alt="image1" height="200px">
             <h2>Julio Ramos</h2>
             <p>I'm a New Englander who moved to Seattle in 2019, right before the COVID-19 pandemic. I'm a grocery worker who is working to become a web designer. I'm focused on functional, beautiful, and user friendly websites. I love to read, watch old horror movies, and coding!</p>
             <h2>Communities I Follow</h2>
@@ -43,7 +43,7 @@
             </div> <!-- end accordion -->
         </div>
         <div class="third">
-            <img src="../images/2019.jpg" alt="image" height="250px">
+            <img src="../images/2019.jpg" alt="image2" height="200px">
             <h2>Naran Torguud</h2>
             <p>I moved to Seattle in 2019, before the COVID-19 as well as Julio. My background is knitting designer. I want to be a web-developer who create well-designed and functional websites. I like playing volleyball, traveling and hiking.</p>
             <h2>Communities I Follow</h2>
@@ -66,7 +66,7 @@
             </div> <!-- end accordion -->
         </div>
         <div class="third">
-            <img src="../images/yip.jpg" alt="image" height="250px">
+            <img src="../images/yip.jpg" alt="image3" height="200px">
             <h2>Christopher Yip</h2>
             <p>I moved to Seattle in 2016 and used to work as a chef, but now I am working as a carpenter and studying to become a web developer. Within web development I am looking to create web applications to help connect people. I am into biking, board games, bouldering, and cooking.</p>
             <h2>Communities I Follow</h2>

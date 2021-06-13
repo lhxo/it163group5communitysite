@@ -283,6 +283,11 @@ p {
     height: 300px;
 }
 
+.accordion h3 {
+    background-color: #27cfa8;
+    border:cadetblue;
+}
+
 .register-login {
     display: grid;
     grid-template-columns: 50% 50%;
