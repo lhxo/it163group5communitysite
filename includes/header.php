@@ -31,10 +31,10 @@
             </div>
 			
 			<div class="nav-right">
-                <ul>
-                    <li><a href="index.php">[Toggle Button Placement Here]</a></li>
+                
+                    <p><a href="index.php">[Toggle Button Placement Here]</a></p>
                    
-                </ul>
+                
             </div>
 			
         </div> <!-- end flex-nav-->
