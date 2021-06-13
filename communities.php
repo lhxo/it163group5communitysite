@@ -1,5 +1,8 @@
 <?php include 'includes/header.php' ?>
 
+<body onload="startTime()">
+<div id="timer3"></div>
+
     <div class="main">
         <div class="splash">
             <p>Communities Near You</p>
@@ -33,8 +36,8 @@
 					<img src="images/washingtontrails.jpeg" alt="wta" width="70px" height="70px">
 					<p>WTA recognized the need for people whose lives were being impacted by the pandemic to get outdoors, safely and responsibly.</p>
 				</div>
-			</div>
-		</div>
+			</div> <!-- end comms -->
+		</div> <!-- end full -->
 
 		<div class="full">
 		<h1>New Communities</h1>
@@ -62,8 +65,8 @@
 						<img src="images/language-culture.jpeg" alt="lang&culture" width="70px" height="70px">
 						<p>This is a group for anyone interested in any language or world culture. Any level of experience with a language is welcome.</p>
 					</div>
-			</div>
-		</div>
+			</div> <!-- end comms -->
+		</div> <!-- end full -->
 
         <div class="categories">
             <h1>Categories</h1>
