@@ -23,37 +23,24 @@ function checkTime(i) {
   return i;
 }
 
-$( function() {
-  // run the currently selected effect
-  function runEffect() {
-    // get effect type from
-    var selectedEffect = $( "#effectTypes" ).val();
 
-    // Most effect types need no options passed by default
-    var options = {};
-    // some effects have required parameters
-    if ( selectedEffect === "scale" ) {
-      options = { percent: 50 };
-    } else if ( selectedEffect === "transfer" ) {
-      options = { to: "#button", className: "ui-effects-transfer" };
-    } else if ( selectedEffect === "size" ) {
-      options = { to: { width: 200, height: 60 } };
-    }
+// Select the button
+window.onload = function() {
+  const btn = document.getElementById("btn-theme-toggle");
+  // Select the stylesheet <link>
+  const theme = document.getElementById("theme-link");
 
-    // Run the effect
-    $( "#effect" ).effect( selectedEffect, options, 500, callback );
-  };
+  // Listen for a click on the button
+  btn.addEventListener("click", function() {
 
-  // Callback function to bring a hidden box back
-  function callback() {
-    setTimeout(function() {
-      $( "#effect" ).removeAttr( "style" ).hide().fadeIn();
-    }, 1000 );
-  };
-
-  // Set effect from select menu value
-  $( "#button" ).on( "click", function() {
-    runEffect();
-    return false;
-  });
-} );
+    // If the current URL contains "light-theme"
+    if (theme.getAttribute("href") == "../css/styles.css") {
+      // ... then switch it to "dark-theme"
+      theme.href = "../css/styles-dark.css";
+    // Otherwise...
+    } else {
+      // ... switch it to "light-theme"
+      theme.href = "../css/styles.css";
+  }
+})
+}

@@ -6,12 +6,11 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/South Street/style.css">
+    <script src="https://use.fontawesome.com/ea1242b543.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="js/myscript.js"></script>
-    <link href="css/styles.css" type="text/css" rel="stylesheet">
-    <link href="css/styles-dark.css" type="text/css" rel="stylesheet">
+    <script src="../js/myscript.js"></script>
+    <link href="../css/styles.css" id="theme-link" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -32,10 +31,8 @@
             </div>
 			
 			<div class="nav-right">
-                
-                    <p><a href="index.php">[Toggle Button Placement Here]</a></p>
-                   
-                
+                <button class="btn-toggle" id="btn-theme-toggle">Light/ 
+                    Dark</button>
             </div>
 			
         </div> <!-- end flex-nav-->
