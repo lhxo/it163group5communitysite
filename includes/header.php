@@ -29,5 +29,14 @@
                     <!-- <li><a href="register.php">Register</a></li> -->
                 </ul>
             </div>
+			
+			<div class="nav-right">
+                <ul>
+                    <li><a href="index.php">[Toggle Button Placement Here]</a></li>
+                   
+                </ul>
+            </div>
+			
         </div> <!-- end flex-nav-->
+		
     </header>
