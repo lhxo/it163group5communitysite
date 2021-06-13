@@ -1,10 +1,5 @@
 <?php include 'includes/header.php' ?>
 
-<!-- <body onload="startTime()">
-<div id="timer1"></div> -->
-<p id="demo"></p>
-<button onclick="clearInterval(myVar)">Stop time</button>
-
     <div class="main">
         <div class="splash">
             <p>Find Your Community</p>
