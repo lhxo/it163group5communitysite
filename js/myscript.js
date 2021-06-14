@@ -3,7 +3,7 @@ $( function() {
 } );
 
 
-window.ondblclick = function startTime(){
+window.ondragstart = function startTime(){
   var today = new Date();
   var m = today.getMinutes();
   var s = today.getSeconds();
