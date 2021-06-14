@@ -3,7 +3,7 @@ $( function() {
 } );
 
 
-window.onscroll = function startTime() {
+window.onload= function startTime(){
   var today = new Date();
   var m = today.getMinutes();
   var s = today.getSeconds();
@@ -11,7 +11,7 @@ window.onscroll = function startTime() {
   s = checkTime(s);
 
   document.getElementById('timer').textContent = alert('You are on this page for ' + s + ' seconds.');
-}
+};
 
 function checkTime(i) {
   if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
@@ -25,7 +25,7 @@ $( function() {
 
 
 // Select the button
-window.onload = function themeToggle() {
+window.onclick = function themeToggle() {
   const btn = document.getElementById("btn-theme-toggle");
   // Select the stylesheet <link>
   const theme = document.getElementById("theme-link");
