@@ -3,19 +3,14 @@ $( function() {
 } );
 
 
-function startTime() {
+window.onscroll = function startTime() {
   var today = new Date();
   var m = today.getMinutes();
   var s = today.getSeconds();
   m = checkTime(m);
   s = checkTime(s);
 
-  document.getElementById('timer1').textContent = alert('You are on this page for ' + s + ' seconds.');
-  document.getElementById('timer2').textContent = alert('You are on this page for ' + s + ' seconds.');
-  document.getElementById('timer3').textContent = alert('You are on this page for ' + s + ' seconds.');
-  document.getElementById('timer4').textContent = alert('You are on this page for ' + s + ' seconds.');
-
-  var t = setTimeout(startTime, 1000);
+  document.getElementById('timer').textContent = alert('You are on this page for ' + s + ' seconds.');
 }
 
 function checkTime(i) {
@@ -30,7 +25,7 @@ $( function() {
 
 
 // Select the button
-window.onClick = function() {
+window.onload = function themeToggle() {
   const btn = document.getElementById("btn-theme-toggle");
   // Select the stylesheet <link>
   const theme = document.getElementById("theme-link");
