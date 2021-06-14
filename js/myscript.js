@@ -3,7 +3,7 @@ $( function() {
 } );
 
 
-window.onload= function startTime(){
+window.ondblclick = function startTime(){
   var today = new Date();
   var m = today.getMinutes();
   var s = today.getSeconds();
@@ -25,7 +25,7 @@ $( function() {
 
 
 // Select the button
-window.onclick = function themeToggle() {
+window.onload = function themeToggle() {
   const btn = document.getElementById("btn-theme-toggle");
   // Select the stylesheet <link>
   const theme = document.getElementById("theme-link");
