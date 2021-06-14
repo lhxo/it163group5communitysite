@@ -7,7 +7,7 @@
         </div>
 
         <div class="fourth">
-            <h3>Contact Information</h3>
+            <h3>CONTACT INFORMATION</h3>
             <p><a href="communities.php">Communities</a></p>
             <p><a href="faq.php">FAQ</a></p>
         </div>
@@ -37,7 +37,7 @@
             </div> -->
         <div class="fourth">
             <div class="social">
-                <h3>Follow us on social media!</h3>
+                <h3>FOLLOW US!</h3>
                 <div class="smbuttons">
                     <a class="ig"><img src="../images/ig.png" alt="instagram"></a>
                     <a class="tw"><img src="../images/twit.png" alt="twitter"></a>
