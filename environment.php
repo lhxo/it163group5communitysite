@@ -1,8 +1,5 @@
 <?php include 'includes/header.php' ?>
 
-<body onload="startTime()">
-<div id="timer"></div>
-
 <div class="main"> 
         <div class="about">
             <h4>Environmental Activism</h4>
