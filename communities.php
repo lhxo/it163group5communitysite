@@ -1,8 +1,5 @@
 <?php include 'includes/header.php' ?>
 
-<body onload="startTime()">
-<div id="timer3"></div>
-
     <div class="main">
         <div class="splash">
             <p>Communities Near You</p>

@@ -14,6 +14,8 @@
 </head>
 
 <body>
+<div id="timer"></div>
+
     <header>
         <div class="flex-nav">
             <div class="logo">
@@ -31,8 +33,9 @@
             </div>
 			
 			<div class="nav-right">
-                <button class="btn-toggle" id="btn-theme-toggle">Light/ 
-                    Dark</button>
+                <button class="btn-toggle" id="btn-theme-toggle">Light/ Dark
+                    <!-- <img id="toggle-image" src="images/" alt="toggle" style="max-height: 100%; max-width: 100%"> -->
+                </button>
             </div>
 			
         </div> <!-- end flex-nav-->

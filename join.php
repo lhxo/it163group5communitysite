@@ -1,8 +1,5 @@
 <?php include 'includes/header.php' ?>
 
-<body onload="startTime()">
-<div id="timer4"></div>
-
 <div class="register-login">
     <div class="register">
       <h2>New Account</h2>
