@@ -35,9 +35,11 @@
             </div>
 			
 			<div class="nav-right">
-                <button class="btn-toggle" id="btn-theme-toggle">Light/ Dark
+                <label class="btn-toggle" id="btn-theme-toggle">
+					<input type="checkbox">
+					<span class="slider round"></span>
                     <!-- <img id="toggle-image" src="images/" alt="toggle" style="max-height: 100%; max-width: 100%"> -->
-                </button>
+                </label>
             </div>
 			
         </div> <!-- end flex-nav-->
