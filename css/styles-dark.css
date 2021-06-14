@@ -208,6 +208,7 @@ header {
 .categories {
     display: grid;
     grid-column: span 13;
+    background-color: #111;
 }
 
 .categories .cat {
