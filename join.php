@@ -30,11 +30,11 @@
 			<form method="post" action="http://www.example.org/login">
 
 				<label for="username">Username: </label><br>
-				<input type="text" id="username" />
+				<input type="text" id="username" placeholder="Username"/>
 				<div id="feedback"></div>
 				<br>
 				<label for="password">Password: </label><br>
-				<input type="password" id="password" />
+				<input type="password" id="password" placeholder="Password"/>
 				<div id="feedback"></div>
 				<a class="forgotpw" href="#">Forgot your password?</a>
 				<br><br>
