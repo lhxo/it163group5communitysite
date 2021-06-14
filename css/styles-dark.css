@@ -183,7 +183,20 @@ header {
 }
 
 #tabs {
-    display: inline;
+    display: grid;
+    padding-top: 50px;
+    grid-column: span 13;
+}
+
+.accordion h3 {
+    background-color: #27cfa8;
+    border:cadetblue;
+    border-radius: 5px;
+}
+
+#tabs li {
+    background-color: #27cfa8;
+    border:cadetblue;
 }
 
 .comms {
