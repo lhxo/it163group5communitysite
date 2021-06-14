@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+	<script src="https://use.fontawesome.com/ea1242b543.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="../js/myscript.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link href="../css/styles.css" id="theme-link" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="timer"></div>
+
+	<header>
+		<div class="flex-nav">
+			<div class="logo">
+				<a href="index.php"><img id="logo" src="images/logo-header-white.png" alt="logo"></a>
+			</div>
+
+			<div class="nav">
+				<ul>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="communities.php">Communities</a></li>
+					<li><a href="join.php">Join Us</a></li>
+					<!-- <li><a href="register.php">Register</a></li> -->
+				</ul>
+			</div>
+
+			<div class="nav-right">
+				<button class="btn-toggle" id="btn-theme-toggle">Light/ Dark
+					<!-- <img id="toggle-image" src="images/" alt="toggle" style="max-height: 100%; max-width: 100%"> -->
+				</button>
+			</div>
+
+		</div> <!-- end flex-nav-->
+
+	</header>
+
+	<div class="register-login">
+		<div class="register">
+			<h2>New Account</h2>
+			<!-- <form method="post" action="http://www.example.org/register"> -->
+			<form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
+
+				<label for="email">Email: </label><br>
+				<input type="text" id="email" placeholder="Email"/>
+				<div id="feedback"></div>
+				<br>
+				<label for="username">Create a username: </label><br>
+				<input type="text" id="username" placeholder="Username"/>
+				<div id="feedback"></div>
+				<br>
+				<label for="password">Create a password: </label><br>
+				<input type="password" id="password" placeholder="Password"/>
+				<div id="feedback"></div>
+				<br>
+				<input type="submit" value="Sign up" />
+				<br><br>
+				<div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
+
+			</form>
+		</div>
+
+		<div class="login">
+			<h2>Login</h2>
+			<form method="post" action="http://www.example.org/login">
+
+				<label for="username">Username: </label><br>
+				<input type="text" id="username" />
+				<div id="feedback"></div>
+
+				<label for="password">Password: </label><br>
+				<input type="password" id="password" />
+				<div id="feedback"></div>
+				<a class="forgotpw" href="#">Forgot your password?</a>
+				<input type="submit" value="Login" />
+
+			</form>
+		</div>
+
+
+	</div> <!-- end register-login -->
+
+	<script>
+		function checkRecaptcha() {
+			res = $('#g-recaptcha-response').val();
+			if (res == "" || res == undefined || res.length == 0)
+				return false;
+			else
+				return true;
+		}
+		$(function() {
+			let thisForm = document.forms[0];
+			$(thisForm).submit(function(e) {
+				if (!checkRecaptcha()) {
+					alert("Please confirm you are not a robot.");
+					return false;
+				}
+			});
+		});
+	</script>
+
+	<footer>
+		<div class="fourth">
+			<h3>CONTACT US</h3>
+			<p><a href="tel:97611458847">Phone: (976) 11 45 8847</a></p>
+			<p><a href="email:contact@seattlecomms.com">E-mail: contact@seattlecomms.com</a></p>
+		</div>
+
+		<div class="fourth">
+			<h3>Contact Information</h3>
+			<p><a href="communities.php">Communities</a></p>
+			<p><a href="faq.php">FAQ</a></p>
+		</div>
+
+		<div class="fourth">
+			<h3>INFORMATION</h3>
+			<p><a href="communities.php">About Communities</a></p>
+			<p><a href="register.php">Work with Us</a></p>
+			<p><a href="register.php">Privacy Policy</a></p>
+			<p><a href="register.php">Terms & Conditions</a></p>
+		</div>
+
+		<!-- <div class="fourth">
+                <img src="" alt="" width="100">
+                <form action="formhandler1.php" method="post">
+                <div class="signup">
+                    <h1>E-NEWSLETTER SIGNUP</h1>
+                    <p>SUBSCRIBE</p>
+                    <p>Subscribe to our newsletter for the latest news and services updates straight to your inbox.</p>
+                </div>
+                <div class="signup">
+                    <input type="text" placeholder="Email" name="mail">
+                    <input type="submit" value="Subscribe">
+
+                </div>
+            </form>
+            </div> -->
+		<div class="fourth">
+			<div class="social">
+				<h3>Follow us on social media!</h3>
+				<div class="smbuttons">
+					<a class="ig"><img src="../images/ig.png" alt="instagram"></a>
+					<a class="tw"><img src="../images/twit.png" alt="twitter"></a>
+					<a class="fb"><img src="../images/fb.png" alt="facebook"></a>
+				</div>
+			</div> <!-- end social -->
+		</div>
+
+		<div class="copyright">
+			<p>&copy;
+				<?php echo date("Y"); ?> Seattle Comms. All rights reserved. All trademarks are property of their
+				respective owners in the US and other countries.
+			</p>
+		</div> <!-- end copyright -->
+	</footer>
+</body></html>
