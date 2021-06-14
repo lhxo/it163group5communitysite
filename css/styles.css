@@ -177,6 +177,10 @@ header {
     margin: 0 auto;
 }
 
+#tabs {
+    display: inline;
+}
+
 .comms {
     margin: 0 20px;
 }

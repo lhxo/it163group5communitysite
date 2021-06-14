@@ -24,6 +24,11 @@ function checkTime(i) {
 }
 
 
+$( function() {
+  $( "#tabs" ).tabs();
+} );
+
+
 // Select the button
 window.onload = function() {
   const btn = document.getElementById("btn-theme-toggle");
