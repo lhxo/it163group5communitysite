@@ -30,7 +30,7 @@ $( function() {
 
 
 // Select the button
-window.onload = function() {
+window.onClick = function() {
   const btn = document.getElementById("btn-theme-toggle");
   // Select the stylesheet <link>
   const theme = document.getElementById("theme-link");
