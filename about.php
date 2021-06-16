@@ -1,27 +1,41 @@
 <?php include 'includes/header.php' ?>
-
+    <!--Start of about.php-->
+    <!--Image/Splash/Quote-->
  	<div class="main">
         <div class="splash">
             <p>About Us</p>
         </div>
 	</div>
+    <!--Image/Splash/Quote-->
     <div class="body-index">
+
+    <!--
+        Responsive by hiding/revealing divs depending on resolution
+    -->
+
+        <!--Full Screen-->
         <div class="full">
-    <!--XS-->
+    <!--Extra Small Screen-->
     <div class="full-xs" id="viewportXS">
+
+                        <!--Introduction/Image-->
                         <h2>Feeling the Freeze? Find What Connects You! XS</h2>
                         <p>It is often said that the Seattle locals have stern and secluded attitude which can feel isolating, also known as the Seattle Freeze. Seattle Comms was created with the idea that this notion of the freeze isn't all that true. The people of this city are kind, lively, and outgoing. This organization connects the greater Seattle with locals who have similar interests whether it is similar hobbies, interest groups, or workouts. Seattle Comms is here to help connect you to communities that fulfill you.</p>
                         <p>Seattle Comms is the brainchild of Julio Ramos, Naran Torguud, and Christopher Yip. During the COVID-19 Pandemic, we all felt estranged to our social lives. Schools went online, restaurants became takeout, and everyone was locked indoors for a year. It has been difficult for many companies and communities during this time. So we came together to create safe place for people to connect again either online or in person as this pandemic slowly recuperates.</p>
-                    </div>
-                    <div class="full-xs" id="viewportXS">
-                        <img src="../images/about.jpg">
-                    </div>
+                        </div>
+                        <div class="full-xs" id="viewportXS">
+                            <img src="../images/about.jpg">
+                        </div>
+                        <!--Introduction/Image-->
 
-                    <div class="full-xs" id="viewportXS">
+                        <!--About the authors-->
+                        <div class="full-xs" id="viewportXS">
                         <img src="../images/IMG_1459.jpg" alt="image1" height="200px">
                         <h2>Julio Ramos</h2>
                         <p>I'm a New Englander who moved to Seattle in 2019, right before the COVID-19 pandemic. I'm a grocery worker who is working to become a web designer. I'm focused on functional, beautiful, and user friendly websites. I love to read, watch old horror movies, and coding!</p>
                         <h2>Communities I Follow</h2>
+
+                        <!--Accordian of groups-->
                         <div class="accordion">
                             <h3>Seattle Greenlake Running Group</h3>
                             <div>
@@ -40,11 +54,13 @@
                             </div>
                         </div> <!-- end accordion -->
                     </div>
+                    <!--About the authors-->
                     <div class="full-xs" id="viewportXS">
                         <img src="../images/2019.jpg" alt="image2" height="200px">
                         <h2>Naran Torguud</h2>
                         <p>I moved to Seattle in 2019, before the COVID-19 as well as Julio. My background is knitting designer. I want to be a web-developer who create well-designed and functional websites. I like playing volleyball, traveling and hiking.</p>
                         <h2>Communities I Follow</h2>
+                        <!--Accordian of groups-->
                         <div class="accordion">
                             <h3>Seattle Language & Culture</h3>
                             <div>
@@ -63,11 +79,13 @@
                             </div>
                         </div> <!-- end accordion -->
                     </div>
+                    <!--About the authors-->
                     <div class="full-xs" id="viewportXS">
                         <img src="../images/yip.jpg" alt="image3" height="200px">
                         <h2>Christopher Yip</h2>
                         <p>I moved to Seattle in 2016 and used to work as a chef, but now I am working as a carpenter and studying to become a web developer. Within web development I am looking to create web applications to help connect people. I am into biking, board games, bouldering, and cooking.</p>
                         <h2>Communities I Follow</h2>
+                        <!--Accordian of groups-->
                         <div class="accordion">
                             <h3>Seattle Greenlake Running Group</h3>
                             <div>
@@ -86,7 +104,7 @@
                             </div>
                         </div> <!-- end accordion -->
                     </div>
-    <!--S-->
+    <!--Small screen-->
     <div class="full-s" id="viewportS">
                         <h2>Feeling the Freeze? Find What Connects You! S</h2>
                         <p>It is often said that the Seattle locals have stern and secluded attitude which can feel isolating, also known as the Seattle Freeze. Seattle Comms was created with the idea that this notion of the freeze isn't all that true. The people of this city are kind, lively, and outgoing. This organization connects the greater Seattle with locals who have similar interests whether it is similar hobbies, interest groups, or workouts. Seattle Comms is here to help connect you to communities that fulfill you.</p>
@@ -165,7 +183,7 @@
                             </div>
                         </div> <!-- end accordion -->
                     </div>
-    <!--M-->
+    <!--Medium Screen-->
     <div class="full-m" id="viewportM">
                         <h2>Feeling the Freeze? Find What Connects You! M</h2>
                         <p>It is often said that the Seattle locals have stern and secluded attitude which can feel isolating, also known as the Seattle Freeze. Seattle Comms was created with the idea that this notion of the freeze isn't all that true. The people of this city are kind, lively, and outgoing. This organization connects the greater Seattle with locals who have similar interests whether it is similar hobbies, interest groups, or workouts. Seattle Comms is here to help connect you to communities that fulfill you.</p>
@@ -244,7 +262,7 @@
                             </div>
                         </div> <!-- end accordion -->
                     </div>
-    <!--L-->
+    <!--Large Screen-->
             <div class="half" id="viewportL">
                         <h2>Feeling the Freeze? Find What Connects You! L</h2>
                         <p>It is often said that the Seattle locals have stern and secluded attitude which can feel isolating, also known as the Seattle Freeze. Seattle Comms was created with the idea that this notion of the freeze isn't all that true. The people of this city are kind, lively, and outgoing. This organization connects the greater Seattle with locals who have similar interests whether it is similar hobbies, interest groups, or workouts. Seattle Comms is here to help connect you to communities that fulfill you.</p>
@@ -323,7 +341,7 @@
                             </div>
                         </div> <!-- end accordion -->
                     </div>    
-    <!--XL-->
+    <!--Extra Large Screen-->
             
             <div class="half" id="viewportXL">
                         <h2>Feeling the Freeze? Find What Connects You! XL</h2>
@@ -407,5 +425,7 @@
     
         <br>
         <br><!-- end main-->
+
+        <!--End of about.php-->
 
     <?php include 'includes/footer.php' ?>

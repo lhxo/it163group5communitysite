@@ -1,12 +1,19 @@
 <?php include 'includes/header.php' ?>
-
+	<!--Start of communities.php-->
+	<!--Image/Splash/Quote-->
     <div class="main">
         <div class="splash">
             <p>Communities Near You</p>
         </div>
 	</div>
+	<!--Image/Splash/Quote-->
 	<div class="body-index">
-	<!--XS-->
+
+	<!--
+        Responsive by hiding/revealing divs depending on resolution
+    -->
+
+	<!--Extra Small Screen-->
 	<div class="full-xs" id="viewportXS">
 				<h1>Popular Communities</h1>
 				<div class="comms">
@@ -59,6 +66,7 @@
 					</div>
 	</div>
 
+	<!--Categories of groups-->
 	<div class="categories" id="viewportXS">
             <h1>Categories</h1>
             <div class="cat">
@@ -77,12 +85,15 @@
             </div> <!-- end cat-->
         </div> <!-- end categories-->
 
-	<!--S-->
+	<!--Small screen-->
+	<!--Start of First Tab-->
 	<div class="sTabs" id="tabsS">
+			<!--Tab Buttons-->
 			<ul>
 				<li><a href="#tab-1">Popular Communities</a></li>
 				<li><a href="#tab-2">New Communities</a></li>
 			</ul>
+			<!--Tab Page 1-->
 			<div id="tab-1">
 				<div class="comms">
 					<a href="http://www.emeraldcitywanderers.org/"><h2>Emerald City Wanderers</h2></a>
@@ -108,7 +119,7 @@
 					<p>WTA recognized the need for people whose lives were being impacted by the pandemic to get outdoors, safely and responsibly.</p>
 				</div>
 			</div> <!-- end tab1 -->
-
+			<!--Tab Page 2-->
 			<div id="tab-2">
 					<div class="comms">
 						<a href="https://www.meetup.com/vegan-85/"><h2>The Seattle Vegan Meetup Group</h2></a>
@@ -135,6 +146,7 @@
 			</div> <!-- end tab2 -->
 		</div> <!--end tabs-->
 
+		<!--Categories-->
         <div class="categories" id="viewportS">
             <h1>Categories</h1>
             <div class="cat">
@@ -153,12 +165,14 @@
             </div> <!-- end cat-->
         </div> <!-- end categories-->
 	
-	<!--M-->
+	<!--Medium Screen-->
+	<!--Start of Second Tab-->
 	<div class="mTabs" id="tabsM">
 			<ul>
 				<li><a href="#tab-1">Popular Communities</a></li>
 				<li><a href="#tab-2">New Communities</a></li>
 			</ul>
+			<!--Start of Tab 1-->
 			<div id="tab-1">
 				<div class="comms">
 					<a href="http://www.emeraldcitywanderers.org/"><h2>Emerald City Wanderers</h2></a>
@@ -184,7 +198,7 @@
 					<p>WTA recognized the need for people whose lives were being impacted by the pandemic to get outdoors, safely and responsibly.</p>
 				</div>
 			</div> <!-- end tab1 -->
-
+			<!--Start of Tab 2-->
 			<div id="tab-2">
 					<div class="comms">
 						<a href="https://www.meetup.com/vegan-85/"><h2>The Seattle Vegan Meetup Group</h2></a>
@@ -229,7 +243,8 @@
             </div> <!-- end cat-->
         </div> <!-- end categories-->
 		
-	<!--L-->
+	<!--Large Screen-->
+	<!--Half Screen-->
 	<div class="half" id="viewportL">
 				<h1>Popular Communities</h1>
 				<div class="comms">
@@ -256,6 +271,7 @@
 					<p>WTA recognized the need for people whose lives were being impacted by the pandemic to get outdoors, safely and responsibly.</p>
 				</div>
 	</div>
+	<!--Half Screen-->
 	<div class="half" id="viewportL">
 					<h1>New Communities</h1>
 					<div class="comms">
@@ -300,7 +316,7 @@
             </div> <!-- end cat-->
     </div> <!-- end categories-->
 
-	<!--XL-->
+	<!--Extra Large Screen-->
 	<div class="half" id="viewportXL">
 				<h1>Popular Communities</h1>
 				<div class="comms">
@@ -355,6 +371,9 @@
 
 	</div> <!-- end body-index-->
 
+	<!--
+		Out of body-index creates larger buttons for XL
+	-->
 	<div class="categories" id=viewportXL>
             <h1>Categories</h1>
             <div class="cat">
@@ -376,4 +395,5 @@
         <br>
         <br>
     </div><!-- end main-->
+	<!--End of communities.php-->
     <?php include 'includes/footer.php' ?>

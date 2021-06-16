@@ -1,5 +1,7 @@
 <?php include 'includes/header.php' ?>
+	<!--Start of join.php-->
 
+	<!--register-->
 	<div class="register-login">
 		<div class="register">
 			<h2>New Account</h2>
@@ -24,7 +26,8 @@
 
 			</form>
 		</div>
-
+				
+		<!--login-->
 		<div class="login">
 			<h2>Login</h2>
 			<form method="post" action="http://www.example.org/login">
@@ -70,5 +73,7 @@
 	</script> -->
 
     <?php include 'includes/contact_include.php' #site keys & code here?>
+
+	<!--End of join.php-->
 
     <?php include 'includes/footer.php' ?>
