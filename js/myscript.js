@@ -3,7 +3,7 @@ $( function() {
 } );
 
 
-window.ondragstart = function startTime(){
+window.ondragenter = function startTime(){
   var today = new Date();
   var m = today.getMinutes();
   var s = today.getSeconds();

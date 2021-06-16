@@ -20,7 +20,7 @@
 				<br>
 				<input type="submit" value="Sign up" class="login-button"/>
 				<br><br>
-				<div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
+				<!-- <div class="g-recaptcha" data-sitekey=""></div> -->
 
 			</form>
 		</div>
@@ -46,7 +46,11 @@
 
 	</div> <!-- end register-login -->
 
-	<script>
+	<!-- <script>
+		$(window).load(function() {
+             $('.blueberry').blueberry();
+         });
+
 		function checkRecaptcha() {
 			res = $('#g-recaptcha-response').val();
 			if (res == "" || res == undefined || res.length == 0)
@@ -63,6 +67,8 @@
 				}
 			});
 		});
-	</script>
+	</script> -->
+
+    <?php include 'includes/contact_include.php' #site keys & code here?>
 
     <?php include 'includes/footer.php' ?>
