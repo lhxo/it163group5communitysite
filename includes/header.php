@@ -4,6 +4,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="SeattleComms connects locals who have similar interests in the greater Seattle area. We are here to help connect you to communities that fulfill you.">
+    <meta name="author" content="Julio Ramos, Naran Torguud, Christopher Yip">
+    <meta name="language" content="en">
+    <meta name="keywords" content="Seattle, WA, Washington, Community, Communities, Connect, Locals, Professional, Environmental, Sustainable, Homes, Vegan, Vegetarian, Hiking, Outdoors, Running, Cycling, Conversation, Photographers, Hobbies, Singles, Events">
     <title></title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en"></script>

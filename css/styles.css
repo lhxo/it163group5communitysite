@@ -157,7 +157,7 @@ header {
 
 .main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../images/newsplash.jpg");
     background-size: cover;
     grid-gap: 10px 10px;
@@ -180,7 +180,7 @@ header {
 }
 
 .body-index {
-	display:grid;
+	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 10px 10px;
 	padding: 100px;
@@ -197,12 +197,29 @@ header {
     text-align: center;
 }
 
-.fourth {
-	padding-top: 50px;
-    grid-column: span 3;
+.full {
+    grid-column: span 13;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.third {
+.full-xs, .full-s, .full-m, .full-l, .full-xl{
+    grid-column: span 13;
+    background-color: #f1f8fe;
+    border-radius: 3px;
+	margin: 5px;
+	padding: 10px;
+}
+
+.sixth {
+    grid-column: span 2;
+    background-color: #f1f8fe;
+    border-radius: 3px;
+	margin: 5px;
+	padding: 10px;
+}
+
+.fourth {
     grid-column: span 3;
     background-color: #f1f8fe;
     border-radius: 3px;
@@ -218,8 +235,28 @@ header {
     text-shadow: 0 0.5px 0.5px #505659;
 }
 
+.third {
+    grid-column: span 4;
+    background-color: #f1f8fe;
+    border-radius: 3px;
+	margin: 5px;
+	padding: 10px;
+}
+
+.forty {
+    grid-column: span 5;
+    background-color: #f1f8fe;
+    border-radius: 3px;
+	margin: 5px;
+	padding: 10px;
+}
+
 .half {
     grid-column: span 6;
+    background-color: #f1f8fe;
+    border-radius: 3px;
+	margin: 5px;
+	padding: 10px;
 }
 
 .main .half {
@@ -231,21 +268,12 @@ header {
     margin: 0 auto;
 }
 
-#tabs {
-    display: grid;
-    padding-top: 50px;
-    grid-column: span 13;
-}
-
-.accordion h3 {
-    background-color: #27cfa8;
-    border:cadetblue;
-    border-radius: 5px;
-}
-
-#tabs li {
-    background-color: #27cfa8;
-    border:cadetblue;
+.twothird {
+    grid-column: span 8;
+    background-color: #f1f8fe;
+    border-radius: 3px;
+	margin: 5px;
+	padding: 10px;
 }
 
 .comms {
@@ -260,13 +288,6 @@ header {
 .categories {
     display: grid;
     grid-column: span 13;
-}
-
-.categories .cat {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 33.3% 33.3% 33.3%;
-    grid-gap: 10px 10px;
 }
 
 .cat .types {
@@ -359,14 +380,6 @@ p {
     height: 300px;
 }
 
-.register-login {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 0px 0;
-	background-image: url("../images/loginbackground.png");
-    background-size: cover;
-}
-
 .register, .login {
     background: white;
 	padding: 50px;
@@ -410,6 +423,12 @@ input {
 	outline: none;
 }
 
+.signup {
+    background: #f1f1f1;
+    border: 4px solid #f1f1f1;
+    padding: 10px;
+}
+
 footer {
     background-color: #46C3A6;
 	padding-left: 40px; 
@@ -418,6 +437,10 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#footer {
+    background-color: #46C3A6;
 }
 
 .social {
@@ -462,23 +485,49 @@ footer {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
     .main {
         position: relative;
         width: 100%;
-}
-    .fourth {
-        display: grid;
-        grid-template-areas: 
-        ".popcomms .newcomms"
-        ".popcomms .newcomms";
-}
+    }
+
+    #viewportS {
+        display: none;
+    }
+
+    #viewportM {
+        display: none;
+    }
+
+    #viewportL {
+        display: none;
+    }
+
+    #viewportXL {
+        display: none;
+    }
+
+    #tabsS {
+        display: none;
+    }
+
+    #tabsM {
+        display: none;
+    }
+
     .categories .cat {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        height: 100%;
-}
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px 10px;
+    }
+
+    .register-login {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        padding: 0px 0;
+        background-image: url("../images/loginbackground.png");
+        background-size: cover;
+    }
 
     footer {
         display: block;
@@ -486,33 +535,212 @@ footer {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media all and (min-width:601px) and (max-width:767px) {
     .main {
         position: relative;
         width: 100%;
-}
+    }
+
+    #viewportXS {
+        display: none;
+    }
+
+    #viewportM {
+        display: none;
+    }
+
+    #viewportL {
+        display: none;
+    }
+
+    #viewportXL {
+        display: none;
+    }
+
+    #tabsS {
+        grid-column: span 13;
+        display: grid;
+        padding-top: 50px;
+    }
+
+    #tabsM.mTabs {
+        display: none;
+    }
+    
+    .accordion h3 {
+        background-color: #27cfa8;
+        border:cadetblue;
+        border-radius: 5px;
+    }
+    
+    #tabsS li {
+        background-color: #27cfa8;
+        border:cadetblue;
+    }
+
+    .categories .cat {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px 10px;
+    }
+
+    .register-login {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        padding: 0px 0;
+        background-image: url("../images/loginbackground.png");
+        background-size: cover;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media all and (min-width:768px) and (max-width:991px) {
     .main, footer {
         position: relative;
         width: 100%;
 }
+    #viewportXS {
+        display: none;
+    }
+
+    #viewportS {
+        display: none;
+    }
+
+    #tabsM {
+        grid-column: span 13;
+        display: grid;
+        padding-top: 50px;
+    }
+
+    #tabsS.sTabs {
+        display: none;
+    }
+
+    .accordion h3 {
+        background-color: #27cfa8;
+        border:cadetblue;
+        border-radius: 5px;
+    }
+    
+    #tabsM li {
+        background-color: #27cfa8;
+        border:cadetblue;
+    }
+
+    #viewportL {
+        display: none;
+    }
+
+    #viewportXL {
+        display: none;
+    }
+    .categories .cat {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 33% 33% 33%;
+        grid-gap: 10px 10px;
+    }
+
+    .register-login {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        padding: 0px 0;
+        background-image: url("../images/loginbackground.png");
+        background-size: cover;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media all and (min-width:992px) and (max-width:1199px) {
     .main, footer {
         position: relative;
         width: 100%;
-}
+    }
+
+    #viewportXS {
+        display: none;
+    }
+
+    #viewportS {
+        display: none;
+    }
+
+    #viewportM {
+        display: none;
+    }
+
+    #viewportXL {
+        display: none;
+    }
+    
+    #tabsS {
+        display: none;
+    }
+
+    #tabsM {
+        display: none;
+    }
+
+    .categories .cat {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 33% 33% 33%;
+        grid-gap: 10px 10px;
+    }
+
+    .register-login {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        padding: 0px 0;
+        background-image: url("../images/loginbackground.png");
+        background-size: cover;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media all and (min-width: 1200px) {
     .main, footer {
         position: relative;
         width: 100%;
-}
+    }
+    #viewportXS {
+        display: none;
+    }
+
+    #viewportS {
+        display: none;
+    }
+
+    #viewportM {
+        display: none;
+    }
+
+    #viewportL {
+        display: none;
+    }
+
+    #tabsS {
+        display: none;
+    }
+
+    #tabsM {
+        display: none;
+    }
+
+    .categories .cat {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 33% 33% 33%;
+        grid-gap: 10px 10px;
+    }
+
+    .register-login {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 0px 0;
+        background-image: url("../images/loginbackground.png");
+        background-size: cover;
+    }
+
 }

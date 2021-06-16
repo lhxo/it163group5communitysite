@@ -1,18 +1,18 @@
 <?php include 'includes/config.php' ?>
 <footer>
-        <div class="fourth">
+        <div class="fourth" id="footer">
             <h3>CONTACT US</h3>
             <p><a href="tel:97611458847">Phone: (976) 11 45 8847</a></p>
             <p><a href="email:contact@seattlecomms.com">E-mail: contact@seattlecomms.com</a></p>
         </div>
 
-        <div class="fourth">
+        <div class="fourth" id="footer">
             <h3>CONTACT INFORMATION</h3>
             <p><a href="communities.php">Communities</a></p>
             <p><a href="faq.php">FAQ</a></p>
         </div>
 
-        <div class="fourth">
+        <div class="fourth" id="footer">
             <h3>INFORMATION</h3>
             <p><a href="communities.php">About Communities</a></p>
             <p><a href="register.php">Work with Us</a></p>
@@ -35,13 +35,13 @@
                 </div>
             </form>
             </div> -->
-        <div class="fourth">
+        <div class="fourth" id="footer">
             <div class="social">
                 <h3>FOLLOW US!</h3>
                 <div class="smbuttons">
-                    <a class="ig"><img src="../images/ig.png" alt="instagram"></a>
-                    <a class="tw"><img src="../images/twit.png" alt="twitter"></a>
-                    <a class="fb"><img src="../images/fb.png" alt="facebook"></a>
+                    <a class="ig"><img src="../images/instagram.png" alt="instagram"></a>
+                    <a class="tw"><img src="../images/twitter.png" alt="twitter"></a>
+                    <a class="fb"><img src="../images/facebook.png" alt="facebook"></a>
                 </div>
             </div> <!-- end social -->
         </div>

@@ -1,7 +1,17 @@
+//random
+function rng() {
+  var random = Math.floor((Math.random() * 10) + 1);
+  if(random==10){
+    alert("Winner winner chicken dinner! You get nothing! Good Day Sir!");
+    }
+  }
+
+window.onload = rng();
+//end random
+
 $( function() {
   $( ".accordion" ).accordion();
 } );
-
 
 window.ondragenter = function startTime(){
   var today = new Date();
@@ -20,9 +30,12 @@ function checkTime(i) {
 
 
 $( function() {
-  $( "#tabs" ).tabs();
+  $( "#tabsS" ).tabs();
 } );
 
+$( function() {
+  $( "#tabsM" ).tabs();
+} );
 
 // Select the button
 window.onload = function themeToggle() {
@@ -64,4 +77,3 @@ window.onload = function themeToggle() {
 
 })
 }
-
