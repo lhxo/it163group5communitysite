@@ -26,21 +26,42 @@ $( function() {
 
 // Select the button
 window.onload = function themeToggle() {
-  const btn = document.getElementById("btn-theme-toggle");
+  const toggleButton = document.getElementById("check-theme-toggle");
   // Select the stylesheet <link>
   const theme = document.getElementById("theme-link");
+  //check if there is any saved theme in the local storage
+  const savedTheme = localStorage.getItem("savedTheme");
+  const savedToggle = localStorage.getItem("savedToggle");
+
+    if (savedTheme) {
+      theme.href = savedTheme;
+    }
+
+    if (savedToggle) {
+      toggleButton.checked = savedToggle;
+    }
 
   // Listen for a click on the button
-  btn.addEventListener("click", function() {
+  toggleButton.addEventListener("change", function(event) {
 
     // If the current URL contains "light-theme"
     if (theme.getAttribute("href") == "../css/styles.css") {
       // ... then switch it to "dark-theme"
       theme.href = "../css/styles-dark.css";
+      localStorage.setItem("savedTheme", "../css/styles-dark.css");
+
+      
     // Otherwise...
+
     } else {
       // ... switch it to "light-theme"
       theme.href = "../css/styles.css";
+      localStorage.setItem("savedTheme", "../css/styles.css");
   }
+
+  const checkbox = event.target;  
+  localStorage.setItem("savedToggle", checkbox.checked);
+
 })
 }
+

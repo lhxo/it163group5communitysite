@@ -35,10 +35,9 @@
             </div>
 			
 			<div class="nav-right">
-                <label class="btn-toggle" id="btn-theme-toggle">
-					<input type="checkbox">
+                <label class="btn-toggle">
+					<input type="checkbox" id="check-theme-toggle">
 					<span class="slider round"></span>
-                    <!-- <img id="toggle-image" src="images/" alt="toggle" style="max-height: 100%; max-width: 100%"> -->
                 </label>
             </div>
 			
